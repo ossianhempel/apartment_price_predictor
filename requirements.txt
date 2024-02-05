@@ -3,7 +3,11 @@ numpy
 seaborn
 matplotlib
 plotly
+plotly.express
 scikit-learn
+statsmodels
+scipy
 catboost
 xgboost
+nbformat
 #-e .
