@@ -10,4 +10,5 @@ scipy
 catboost
 xgboost
 nbformat
+pyarrow
 #-e .
