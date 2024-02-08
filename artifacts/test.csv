@@ -1,0 +1,481 @@
+Unnamed: 0,address,location,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
+2037,Helsingörsgatan 37,"Kista, Stockholms kommun",2023-10-19,2660000,2195000.0,26600,Lägenhet,4.0,100,Ja,2,True,1978.0,7349,6000,Per Lindblad,Fastighetsmäklarna
+1978,Roslagsgatan 15A,"Vasastan, Stockholms kommun",2023-10-19,8500000,8495000.0,116438,Lägenhet,3.0,73,Ja,1 av 5,True,1907.0,3821,7958,Marcus Torell,Magnusson Mäkleri AB
+855,"Wargentinsgatan 3, 2 tr","Kungsholmen, Stockholms kommun",2023-11-01,4575000,4250000.0,102809,Lägenhet,2.0,445,Ja,2 av 5,True,1933.0,2772,0,Lena Svartström,Mäklarhuset Stockholm Innerstan
+1719,"Döbelnsgatan 25, 5tr",Norrmalm,2023-10-23,13100000,11900000.0,147191,Lägenhet,3.0,89,Ja,5 av 5,True,1881.0,3588,14474,Bahar Nabavi,Tradition Mäkleri
+2019,Stagneliusvägen 28,Kungsholmen,2023-10-19,3075000,2995000.0,87857,Lägenhet,2.0,35,Ja,2,True,1937.0,2579,4600,Kristina Ucar,BOSTHLM Fastighetsmäklare AB
+134,"Vintergaloppsgatan 24, 3tr","Täby Park, Täby kommun",2023-11-10,3930000,4195000.0,52400,Lägenhet,3.0,75,Ja,3 av 3,True,2020.0,4378,8232,Marcus Hermanson,Länsförsäkringar Fastighetsförmedling Täby
+1375,"Hornsbergs Strand 59, Vån 4",Västra Kungsholmen,2023-10-26,11700000,11995000.0,101739,Lägenhet,4.0,115,Ja,4,True,2010.0,5152,10740,Lisa Kalin,Diplomat Fastighetmäkleri
+1711,"Ringvägen 12, 5 tr","Kungsängen, Upplands",2023-10-23,1795000,1795000.0,24159,Lägenhet,3.0,743,Ja,6 av 8,True,1963.0,5485,0,Pontus Brodin,Mäklarhuset Kungsängen
+1289,Saimagatan 5,"Akalla, Stockholms kommun",2023-10-27,1960000,1995000.0,26849,Lägenhet,3.0,73,Ja,1 av 5,True,1976.0,4240,0,David Chamaon,HusmanHagberg Kista
+1068,"Roslagstullsbacken 16, 1tr","Östermalm / Vasastan, Stockholms kommun",2023-10-30,4795000,4795000.0,75393,Lägenhet,2.0,636,Ja,1 av 4,True,2008.0,3692,4200,Cecilia Heikkilä Steen,BOSTHLM Fastighetsmäklare AB
+1709,"Folkungagatan 61, 3tr","Södermalm, Stockholms kommun",2023-10-23,4000000,3695000.0,102564,Lägenhet,2.0,39,Unknown,3,False,1912.0,1602,6600,Shaquille Hilaire,BOSTHLM Fastighetsmäklare AB
+111,Ballonggatan 7,"Skarpnäck, Stockholms kommun",2023-11-10,2260000,2175000.0,36748,Lägenhet,2.0,615,Ja,1 av 4,True,1985.0,4475,4428,Allan Mohmand,HusmanHagberg Enskede
+1198,Falugatan 13,"Vasastan Rödabergen, Stockholms kommun",2023-10-27,3090000,3150000.0,98095,Lägenhet,1.0,315,Nej,1 av 5,True,1925.0,2274,0,Nadine Ekstrand,HusmanHagberg Vasastan
+1510,"Ekehjelmstorget 8, 2 tr","Södermalm, Stockholms kommun",2023-10-25,4795000,4795000.0,81271,Lägenhet,2.0,59,Ja,2,True,1984.0,2187,7500,Sanna Treijs,Notar
+1907,"Västgötagränd 1A, 6tr",Södermalm,2023-10-20,5500000,5650000.0,72848,Lägenhet,3.0,755,Nej,6,True,1994.0,5159,0,Pelle Lundin Andersson,Notar
+1789,Ynglingavägen 20E,"Jakobsberg, Järfälla kommun",2023-10-20,1697000,1795000.0,35726,Lägenhet,2.0,475,Ja,3 av 4,True,1998.0,2845,5220,Amanda Pettersson,Fastighetsbyrån Järfälla
+179,Skolvägen 12B,"Åkersberga Centralt, Österåkers kommun",2023-11-09,1550000,1495000.0,41892,Lägenhet,1.0,37,Ja,Unknown,False,1970.0,2215,4668,Isabel Abelin,HusmanHagberg Österåker
+1825,"Åkerbyvägen 94, vån 7","Täby Centrum, Täby kommun",2023-10-20,2235000,2495000.0,41389,Lägenhet,2.0,54,Nej,7 av 16,True,1968.0,3107,3900,Anton Zellman,MOHV Täby
+1521,Södersätravägen 34,"Sollentuna Väsjön, Sollentuna kommun",2023-10-25,1395000,1550000.0,55800,Lägenhet,1.0,25,Nej,Unknown,False,2023.0,2521,0,Amanda Kujanpää,Notar
+1565,Ynglingavägen 20C,"Jakobsberg, Järfälla kommun",2023-10-24,1180000,1245000.0,43704,Lägenhet,1.0,27,Unknown,4 av 6,True,1998.0,1618,8794,Amanda Pettersson,Fastighetsbyrån Järfälla
+1010,Fridensborgsvägen 39,"Järvastaden, Solna kommun",2023-10-31,2700000,2695000.0,57447,Lägenhet,2.0,47,Ja,3 av 5,True,,3278,0,Mike Chammas,Länsförsäkringar Fastighetsförmedling Solna
+2158,"Tjustgatan 2, 4tr","Södermalm, Medborgarplatsen, Stockholms kommun",2023-10-18,3625000,3395000.0,92949,Lägenhet,2.0,39,Ja,4,True,1937.0,3401,8000,Sara Wennertorp,BOSTHLM Nacka
+1025,Loftvägen 12,"Skogås, Huddinge kommun",2023-10-30,1450000,1295000.0,23016,Lägenhet,2.0,63,Ja,2,True,1964.0,3403,4560,Amel Hodzic,Bjurfors Huddinge/Älvsjö
+2152,"Pontonjärgatan 8, 1 tr","Kungsholmen /Norr Mälarstrand, Stockholms kommun",2023-10-18,4675000,4395000.0,106250,Lägenhet,2.0,44,Unknown,Unknown,False,1935.0,1643,0,Simon Hedlund,Mäklarhuset Stockholm Innerstan
+1352,Örby Slottsväg 42,"Örby Slott, Stockholms kommun",2023-10-26,3075000,3195000.0,41554,Lägenhet,3.0,74,Ja,3 av 3,True,1950.0,4224,0,Kajsa Bergklint,Svensk Fastighetsförmedling Älvsjö
+527,Strömshillvägen 13,"Tungelsta, Haninge kommun",2023-11-06,2300000,2550000.0,27059,Lägenhet,4.0,85,Ja,2 av 2,True,2019.0,4816,6000,Solomon Tumizghi,Svensk Fastighetsförmedling Haninge
+1316,Turbinvägen 6,"Järla Sjö, Nacka kommun",2023-10-26,6750000,6595000.0,72193,Lägenhet,3.0,935,Ja,3 av 3,True,,7708,8400,Martin  Sundelin,Bjurfors Nacka
+1739,Åkerbyvägen 162,"Centrum, Täby kommun",2023-10-22,2900000,2995000.0,33526,Lägenhet,3.0,865,Ja,2 av 3,True,1964.0,4625,3000,Fredrica Glatstein,HusmanHagberg Täby
+1301,"Sandfjärdsgatan 12, 3tr","Årsta, Stockholms kommun",2023-10-26,3400000,2995000.0,44156,Lägenhet,3.0,77,Ja,3 av 12,True,1961.0,5250,9585,Diwan Budakci,Fastighetsbyrån Årsta
+2054,"Drevergatan 1A, 2 tr","Norra Djurgårdsstaden, Stockholms kommun",2023-10-18,8000000,8150000.0,96970,Lägenhet,3.0,825,Ja,2 av 7,True,2015.0,4191,7340,Christoffer Perenkranz,Fastighetsbyrån Stockholm – Norra Djurgårdsstaden
+1790,Åsögatan 190,"Sofia, Stockholms kommun",2023-10-20,3300000,3000000.0,84615,Lägenhet,1.0,39,Unknown,3 av 6,True,1929.0,2674,3512,Felipe Osorio Åström,Fastighetsbyrån Stockholm - Södermalm
+1116,Optikvägen 7,"Dalénum, Lidingö kommun",2023-10-28,6000000,5750000.0,81081,Lägenhet,3.0,74,Nej,Unknown,False,2016.0,4515,8232,Robert Nilsson,Bjurfors Östermalm/Lidingö
+2024,Fabrikörvägen 4A,"Nacka Strand, Nacka kommun",2023-10-19,5750000,5995000.0,67647,Lägenhet,3.0,85,Ja,5,True,2018.0,5456,6000,Jakob Cherkani,Widerlöv Nacka/Värmdö
+1196,"Östervägen 14 B, 4/4 tr","Råsunda, Solna kommun",2023-10-27,3060000,2795000.0,72857,Lägenhet,2.0,42,Ja,4 av 4,True,1938.0,2678,4500,Adam Bäckström,Svenska Mäklarhuset Solna
+1190,"Slåttervallsgatan 3, 4 tr","Norra Djurgårdsstaden, Stockholms kommun",2023-10-27,7650000,7695000.0,93293,Lägenhet,4.0,82,Ja,4 av 7,True,2016.0,4487,11500,Christoffer Perenkranz,Fastighetsbyrån Stockholm – Norra Djurgårdsstaden
+2095,Wemevägen 24,"Vendelsö, Haninge kommun",2023-10-18,1700000,1795000.0,29310,Lägenhet,2.0,58,Ja,1 av 1,True,1983.0,3032,6000,Jannica Johansson,MOHV Haninge/Tyresö
+218,Stensövägen 7,"Älta, Nacka kommun",2023-11-09,1560000,1395000.0,26000,Lägenhet,2.0,60,Ja,4 av 7,True,1971.0,3879,1800,Martin Carlsson,SkandiaMäklarna Tyresö/Älta
+463,"Melofonstigen 9, 1 tr","Södra Brunna, Upplands",2023-11-07,1750000,1895000.0,26718,Lägenhet,2.0,655,Ja,2 av 2,True,19831984.0,4121,2400,Michael Westerbom,Mäklarhuset Kungsängen
+518,Krysshammarvägen 18,"Huvudsta, Solna kommun",2023-11-06,3900000,3695000.0,47794,Lägenhet,3.0,816,Ja,4,True,,3824,0,Jannis Nikopoulos,Länsförsäkringar Fastighetsförmedling Solna
+974,"Åkerbyvägen 84, 5tr","Täby Centrum, Täby kommun",2023-10-31,2395000,2395000.0,35221,Lägenhet,2.0,68,Unknown,5 av 16,True,,3828,0,Daniel Anderson,Fastighetsbyrån Täby
+445,Rådsvägen 5D,"Huddinge, Huddinge kommun",2023-11-07,1995000,1895000.0,43654,Lägenhet,2.0,457,Unknown,1 av 3,True,1960.0,1661,8076,William Mazy,Svensk Fastighetsförmedling Huddinge
+1302,Pressarvägen 27,"Kallhäll, Järfälla kommun",2023-10-26,1795000,1975000.0,39889,Lägenhet,2.0,45,Ja,3 av 4,True,2018.0,3174,5340,Amanda Pettersson,Fastighetsbyrån Järfälla
+764,"Järnlundsvägen 35, 3 tr","Årsta, Stockholms kommun",2023-11-02,3410000,2775000.0,58793,Lägenhet,2.0,58,Ja,3 av 3,False,,3590,7200,Sara Kristensen,BOSTHLM Årsta
+575,Tunnlandsvägen 44,Bromma,2023-11-04,3170000,2895000.0,60962,Lägenhet,2.0,52,Ja,3 av 3,True,1943.0,2460,8160,Daniel Andersson,Bjurfors Bromma
+56,Granitvägen 38C,"Tyresö Centrum, Tyresö kommun",2023-11-10,1350000,1350000.0,50000,Lägenhet,1.0,27,Nej,1 av 3,True,1964.0,1733,0,David Hedenström,HusmanHagberg Tyresö/Älta
+1117,Astrakangatan 100,"Hässelby Gård, Stockholms kommun",2023-10-28,2100000,2200000.0,29167,Lägenhet,3.0,72,Ja,1 av 3,True,1984.0,4769,4700,Joel Wikström,HusmanHagberg Vällingby/Hässelby/Spånga
+2014,"Turebergsleden 103, vån 4","Sollentuna Centrum, Sollentuna kommun",2023-10-19,4500000,4195000.0,51136,Lägenhet,3.0,88,Ja,4 av 5,True,2008.0,5090,4800,Charlie Asteson,Länsförsäkringar Fastighetsförmedling Sollentuna
+2132,"Kungstensgatan 59, 0.5 tr","Vasastan, Stockholms kommun",2023-10-18,8925000,8495000.0,119000,Lägenhet,3.0,75,Unknown,0,True,1888.0,2233,0,Nicola Grez Pancetti,Svensk Fastighetsförmedling Sthlm Vasastan
+2252,"Birger Jarlsgatan 109B,1,5 tr",Vasastan,2023-10-17,11000000,9975000.0,102804,Lägenhet,4.0,107,Ja,1,True,1903.0,4490,6840,Sofia Wetterberg,Widerlöv Vasastan/Östermalm
+1105,Bollmoravägen 42,"Centrala Tyresö, Tyresö kommun",2023-10-29,2575000,2575000.0,28771,Lägenhet,4.0,895,Unknown,1 av 2,True,1963.0,6210,0,Michell Balok,SkandiaMäklarna Tyresö/Älta
+1091,"Hjalmar Söderbergs Väg 2, 6tr","Kristineberg, Stockholms kommun",2023-10-29,3995000,3995000.0,83229,Lägenhet,2.0,48,Ja,6 av 6,True,2020.0,3130,5880,Vilhelm Åman,Bjurfors Kungsholmen
+1673,Finnboda Parkväg 22A,"Finnboda Hamn, Nacka kommun",2023-10-23,5600000,5750000.0,66667,Lägenhet,3.0,84,Ja,2 av 4,True,2009.0,4912,6600,Ola Niklasson,Länsförsäkringar Fastighetsförmedling Nacka
+422,Ringvägen 109,"Vårsta, Botkyrka kommun",2023-11-07,1250000,1395000.0,21739,Lägenhet,2.0,575,Unknown,0 av 1,True,1984.0,3603,7812,Christine Berg,Fastighetsbyrån Tumba
+1822,Centralgatan 70e,"Kullsta, Nynäshamns kommun",2023-10-20,1195000,1195000.0,34143,Lägenhet,1.0,35,Nej,3 av 3,True,1918.0,2165,9852,Albin Niklasson,Länsförsäkringar Fastighetsförmedling Nynäshamn
+1942,Sankt Eriksgatan 106,Vasastan,2023-10-19,12675000,12950000.0,113170,Lägenhet,4.0,112,Nej,Unknown,False,1928.0,3516,0,Jonathan Bergstrand,Notar
+2276,"Ankdammsgatan 27, Vån 7!","Skytteholm/Solna C, Solna kommun",2023-10-17,4510000,3995000.0,40631,Lägenhet,4.0,111,Ja,7 av 8,True,2004.0,6167,0,Robert Sundström,SkandiaMäklarna Solna
+2350,"Kotkagatan 13, vån 6 av 6","Akalla, Stockholms kommun",2023-10-16,2200000,2250000.0,30137,Lägenhet,3.0,73,Ja,6 av 6,True,1976.0,4234,3800,Okan Korhan,SthlmFast
+1435,"Wollmar yxkullsgatan 48C, BV","Södermalm Högalid, Stockholms kommun",2023-10-25,2940000,2795000.0,99661,Lägenhet,1.0,295,Nej,0,True,1928.0,2034,0,Elsy Abou Akl,Bjurfors Södermalm
+1355,Kruthornsvägen 32 B,"Sollentuna, Sollentuna kommun",2023-10-26,1630000,1795000.0,23286,Lägenhet,3.0,70,Unknown,3,True,1962.0,4454,4668,Linda Bylund,Svensk Fastighetsförmedling Sollentuna
+1599,"Ljusstöparbacken 26B, 3/3tr","Gröndal, Stockholms kommun",2023-10-24,4850000,4895000.0,65541,Lägenhet,3.0,74,Ja,Unknown,False,1960.0,4396,0,Nicklas Talvitie,Notar
+1753,Ripstigen 6,"Bergshamra, Solna kommun",2023-10-22,3900000,3795000.0,65000,Lägenhet,2.0,60,Ja,7 av 9,True,1961.0,3431,0,Gabriel Bilir,Bergets Ro Fastighetsförmedling
+941,Fleminggatan 89,"Kungsholmen/ Fridhemsplan, Stockholms kommun",2023-10-31,3180000,2995000.0,113571,Lägenhet,1.0,28,Nej,1,True,1885.0,1041,1800,Charlotta Blick,Alicia Edelman Vasastan/Norrmalm
+1650,"Tiundagränd 1, 3tr","Täby Centrum, Täby kommun",2023-10-24,3850000,3795000.0,52027,Lägenhet,3.0,74,Ja,3 av 6,True,2013.0,3986,12312,Marcus Hermanson,Länsförsäkringar Fastighetsförmedling Täby
+962,Getporsvägen 13,"Handen, Haninge kommun",2023-10-31,4200000,4095000.0,27273,Lägenhet,6.0,154,Unknown,Unknown,False,2013.0,5050,32100,Philip Mutto,Svensk Fastighetsförmedling Haninge
+1777,"Hägerstensvägen 150, vån 3/4","Aspudden, Stockholms kommun",2023-10-21,4350000,3995000.0,82857,Lägenhet,2.0,525,Ja,3 av 4,True,1943.0,3610,13500,Pontus Wilhede,BOSTHLM Hägersten/Liljeholmen
+719,Bergsundsgatan 12,"Hornstull, Stockholms kommun",2023-11-02,3900000,3295000.0,108333,Lägenhet,1.0,36,Ja,7 av 9,True,1938.0,2181,9400,Felipe Osorio Åström,Fastighetsbyrån Stockholm - Södermalm
+1259,Karlsborgsvägen 121,Märsta,2023-10-27,2825000,2975000.0,27970,Lägenhet,5.0,101,Unknown,Unknown,False,1996.0,5603,37884,Helena Bohman,Mäklarhuset Sigtuna Märsta Rosersberg
+414,"Dalagatan 68 B, 2 TR","Vasastan, Stockholms kommun",2023-11-07,4600000,4495000.0,107981,Lägenhet,2.0,426,Nej,2 av 4,True,1896.0,2526,6800,Robin Nyvall,Alicia Edelman Vasastan/Norrmalm
+1891,"Radiusbacken 31, vån 4","Telefonplan, Stockholms kommun",2023-10-20,2700000,2495000.0,75000,Lägenhet,2.0,36,Ja,4 av 5,True,2018.0,2760,5500,Pontus Wilhede,BOSTHLM Hägersten/Liljeholmen
+1055,"Huvudstagatan 1B, 6tr","Solna Centrum, Solna kommun",2023-10-30,6100000,5995000.0,55963,Lägenhet,4.0,109,Ja,6 av 7,True,2002.0,5830,10800,Alec Holmström,Fastighetsbyrån Solna
+1404,Midskeppsgatan 12,"Hammarby Sjöstad, Stockholms kommun",2023-10-26,6750000,6495000.0,72581,Lägenhet,4.0,93,Ja,4 av 6,True,2009.0,5251,0,Johan Nurk,Mäklarhuset Hammarby Sjöstad
+1948,Skarpbrunnavägen 185,Botkyrka,2023-10-19,1695000,1695000.0,32596,Lägenhet,2.0,52,Unknown,-1,True,,3423,0,Aram Soma,Fastighetsbyrån Norra Botkyrka
+2321,"Bollgatan 5, vån 5 av 5","Råsunda, Solna kommun",2023-10-16,5490000,5490000.0,66951,Lägenhet,2.0,82,Ja,5 av 5,True,1992.0,2425,4764,John Borja,Länsförsäkringar Fastighetsförmedling Solna
+1665,"Gröndalsvägen 80B, vån 2","Gröndal, Stockholms kommun",2023-10-23,2850000,2995000.0,66279,Lägenhet,1.0,43,Ja,2 av 2,True,1906.0,3752,6000,Cornelia Loberg,Bjurfors Liljeholmen Hägersten
+239,"Ölandsgatan 46, 4 tr","Södermalm, Stockholms kommun",2023-11-09,4300000,3995000.0,100000,Lägenhet,2.0,43,Ja,4,True,1929.0,2865,0,Sofia Kihlman,Mäklarhuset Stockholm Innerstan
+252,Vintergatan 26,"Centrala Sundbyberg, Sundbybergs kommun",2023-11-09,2725000,2495000.0,64881,Lägenhet,1.0,42,Nej,4,True,1946.0,2673,0,Michelle Colegate,Notar
+2217,Lejonets gata 385,"Brandbergen, Haninge kommun",2023-10-17,1105000,995000.0,24022,Lägenhet,2.0,46,Unknown,2 av 7,True,,3830,2400,Kimberly Ridderskans,Fastighetsbyrån Haninge
+173,"Nybohovsgränd 38, vån 3","Liljeholmen, Stockholms kommun",2023-11-09,4000000,3795000.0,51282,Lägenhet,3.0,78,Ja,3 av 3,True,1962.0,3955,0,Jessica Alvå,Notar
+767,"Drottningholmsvägen 370, vån 3!",Bromma,2023-11-02,2295000,2295000.0,58846,Lägenhet,1.0,39,Ja,3 av 3,True,1938.0,2386,4800,Rebecca Bloss,Bjurfors Bromma
+1455,"Tjurbergsgatan 34, 1 tr",Södermalm,2023-10-25,3050000,3195000.0,76250,Lägenhet,1.0,40,Nej,1,True,1927.0,2283,0,Magnus Jonzon,Notar
+237,Fingerörtsvägen 8,Nacka,2023-11-09,4995000,4995000.0,69375,Lägenhet,2.0,72,Ja,6 av 6,True,,4610,6400,Emma Thelin,BOSTHLM Nacka
+781,"Skälderviksplan 6, 3 tr","Årsta, Stockholms kommun",2023-11-02,3000000,2775000.0,55556,Lägenhet,2.0,54,Ja,3 av 3,False,,4434,6000,Sara Kristensen,BOSTHLM Årsta
+1812,Orienteringsstigen 15B,"Geneta, Södertälje kommun",2023-10-20,1900000,1995000.0,24359,Lägenhet,3.0,78,Ja,1 av 1,True,20072008.0,4341,0,Said Said,Fastighetsbyrån Södertälje
+785,"Lumagatan 19, 1/2 tr","Hammarby Sjöstad, Stockholms kommun",2023-11-01,5300000,5250000.0,74648,Lägenhet,3.0,71,Nej,0,True,2008.0,3531,0,Ehsan Sedagati,Notar
+555,Uppfartsvägen 5,"Råsunda, Solna kommun",2023-11-05,2760000,2395000.0,72632,Lägenhet,1.0,38,Ja,4,True,1939.0,2928,4800,Pasha Sabouri,Notar
+874,Katarina Västra Kyrkogata 6C,"Södermalm, Stockholms kommun",2023-11-01,4750000,4750000.0,105556,Lägenhet,2.0,45,Unknown,0,False,1914.0,1603,3600,Sofia Elfsson da Costa,Behrer & Partners
+1127,Näsbylundsvägen 18,"Roslags Näsby, Täby kommun",2023-10-28,2900000,2995000.0,53211,Lägenhet,2.0,545,Ja,2 av 6,True,2014.0,3661,6250,Oscar Hallbygård,MOHV Täby
+485,Madängsgatan 22,"Norra Djurgårdsstaden, Stockholms kommun",2023-11-07,6200000,5995000.0,82667,Lägenhet,3.0,75,Ja,1,True,2013.0,4916,7800,Sandra Hansson,Notar
+100,Textilgatan 21,"Hammarby Sjöstad, Stockholms kommun",2023-11-10,5200000,4995000.0,76471,Lägenhet,3.0,68,Ja,3 av 5,True,2014.0,3690,18480,Raymond Lindeborg,Svensk Fastighetsförmedling Hammarby Sjöstad
+44,Bygatan 39,"Huvudsta, Solna kommun",2023-11-10,3700000,3895000.0,42045,Lägenhet,3.0,88,Ja,1 av 7,True,,5337,7200,André Nasiri,Fastighetsbyrån Solna
+1207,"Skönviksvägen 305, 2 tr",Stureby,2023-10-27,3990000,3595000.0,57826,Lägenhet,3.0,69,Nej,2 av 3,True,1952.0,5084,9624,Angela Hamstad,Notar
+649,LM Ericssons väg 4,"Telefonplan, Stockholms kommun",2023-11-03,6650000,6950000.0,65196,Lägenhet,4.0,102,Ja,2 av 4,True,2009.0,6506,4800,Eddy Lloret,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+247,"Mälartorget 15, 5 tr","Gamla Stan, Stockholms kommun",2023-11-09,7000000,6950000.0,104478,Lägenhet,3.0,67,Nej,5 av 6,True,1860.0,3130,7589,Charlotta Larsson,Tradition Mäkleri
+2228,"Sannadalsvägen 28, vån 1","Gröndal, Stockholms kommun",2023-10-17,4800000,3995000.0,85714,Lägenhet,3.0,56,Ja,Unknown,False,1938.0,3703,0,Nicklas Talvitie,Notar
+1539,Grev Turegatan 70,"Östermalm, Stockholms kommun",2023-10-25,15650000,13950000.0,127236,Lägenhet,4.0,123,Unknown,3 av 4,False,,4865,7800,Per Lindblad,Fastighetsmäklarna
+2140,Odins väg 6,"Nynäshamn/Gröndal, Nynäshamns kommun",2023-10-18,1450000,1450000.0,21642,Lägenhet,2.0,67,Unknown,Unknown,False,1969.0,5303,9000,Caroline Östlund,SkandiaMäklarna Nynäshamn
+707,Lundagatan 46,"Högalid, Stockholms kommun",2023-11-02,4000000,3295000.0,105263,Lägenhet,2.0,38,Unknown,1,True,1931.0,1960,7424,Max Calland,Fastighetsbyrån Stockholm - Södermalm
+1310,Hangarvägen 5,"Hägernäs, Täby kommun",2023-10-26,2500000,2395000.0,33967,Lägenhet,3.0,736,Ja,6 av 9,True,1958.0,4478,4188,Louise Häggberg,Länsförsäkringar Fastighetsförmedling Täby
+1391,"Sandfjärdsgatan 33, 2 tr","Årsta, Stockholms kommun",2023-10-26,2610000,2795000.0,43866,Lägenhet,2.0,595,Ja,Unknown,False,1961.0,3741,6100,Monia Belgacem,BOSTHLM Årsta
+2180,Slalomvägen 6,"Västertorp, Stockholms kommun",2023-10-18,3300000,2995000.0,56897,Lägenhet,3.0,58,Ja,1 av 3,True,1950.0,3902,5160,Frida Selling,Erik Olsson Fastighetsförmedling
+1270,Sveavägen 83,"Vasastan, Stockholms kommun",2023-10-27,5900000,5900000.0,95161,Lägenhet,2.0,62,Unknown,5 av 5,True,1926.0,2195,5500,Gustav Enhörning,SJÖMAN\FRISK
+1433,Kristinebergsvägen 32,Kungsholmen,2023-10-25,5200000,4895000.0,83871,Lägenhet,3.0,62,Ja,Unknown,False,1980.0,2893,0,David Garrett,Bjurfors Kungsholmen
+886,Skarpbrunnavägen 117 NB,"Eriksberg, Botkyrka kommun",2023-11-01,1505000,1495000.0,28942,Lägenhet,2.0,52,Nej,-1 av 2,True,1977.0,3423,0,Fadi Haddad,Länsförsäkringar Fastighetsförmedling Botkyrka/Salem
+1336,"Nyängsvägen 8, 2 tr","Tullinge, Botkyrka kommun",2023-10-26,2000000,1795000.0,30534,Lägenhet,2.0,655,Ja,2 av 4,True,2015.0,4056,6981,Romeo Sharro,Fastighetsbyrån Tumba
+1927,Valhallavägen 158,"Östermalm, Stockholms kommun",2023-10-19,6725000,6495000.0,100373,Lägenhet,2.0,67,Unknown,2 av 5,True,,3060,5735,Lovisa Hedlund,Fastighetsbyrån Stockholm – Östermalm
+1968,Tallsätravägen 15A,"Rönninge, Salems kommun",2023-10-19,3700000,3995000.0,38743,Lägenhet,4.0,955,Ja,4 av 5,True,2018.0,5892,7920,Ann Sjöblom,Fastighetsbyrån Salem
+1210,"Kubbegatan 15, 3tr","Sköndal, Stockholms kommun",2023-10-27,2800000,2875000.0,40580,Lägenhet,3.0,69,Ja,3 av 3,True,1954.0,3928,7200,Per Knaust,Notar
+869,"Heliosgatan 16B, pl 8","Hammarby Sjöstad, Stockholms kommun",2023-11-01,5210000,4695000.0,84032,Lägenhet,2.0,62,Ja,8 av 8,True,2019.0,3381,0,George Shabo,Mäklarhuset Hammarby Sjöstad
+1681,Lobeliavägen 3,Älta,2023-10-23,2495000,2495000.0,55444,Lägenhet,2.0,45,Ja,3 av 4,True,2016.0,3566,6100,Jessica Severinsson,Erik Olsson Fastighetsförmedling
+1447,Vinnarcirkeln 25,"Täby Park, Täby kommun",2023-10-25,1850000,1845000.0,63793,Lägenhet,1.0,29,Ja,2 av 5,True,2023.0,1935,4200,Anton Sandberg,MOHV Täby
+729,Nybodagatan 4,"Skytteholm, Solna kommun",2023-11-02,3650000,3650000.0,58400,Lägenhet,2.0,625,Ja,6 av 8,True,1959.0,3732,0,Victor Aghester,SkandiaMäklarna Solna
+1767,Sparbanksvägen 82,"Hägerstensåsen, Stockholms kommun",2023-10-21,3795000,3795000.0,51284,Lägenhet,3.0,74,Ja,1 av 2,True,1945.0,5375,10500,Sofie Sporron Fd Vikström,MOHV Stockholm
+2204,David Bagares Gata 26 B,"Norrmalm, Stockholms kommun",2023-10-18,13400000,13200000.0,103876,Lägenhet,4.0,129,Ja,3 av 3,False,1882.0,4828,0,Niclas Behrer,Behrer & Partners
+1798,Wennerbergsgatan 6B,"Kungsholmen, Stockholms kommun",2023-10-20,5680000,5695000.0,90159,Lägenhet,3.0,63,Ja,4 av 8,True,1943.0,3823,8200,Alexander König,Tradition Mäkleri
+809,Dansbanevägen 5,"Åkersberga Centralt, Österåkers kommun",2023-11-01,3200000,2995000.0,35165,Lägenhet,4.0,91,Ja,2 av 5,True,2009.0,5176,1793,Joakim Torkelsson,Fastighetsbyrån Åkersberga
+440,"Ringvägen 16, 2 tr","Kungsängen centrum, Upplands",2023-11-07,2400000,2495000.0,25000,Lägenhet,4.0,96,Ja,3 av 8,True,2000.0,6338,8400,Fredrik Wingenblixt,Wingenblixt Mäklarbyrå
+1667,"Storsjövägen 60, 3/3tr","Årsta, Stockholms kommun",2023-10-23,3650000,3095000.0,64035,Lägenhet,3.0,57,Ja,3 av 3,True,1946.0,3890,0,Robert Kassar,Fastighetsbyrån Årsta
+1788,Pipersgatan 27,"Kungsholmen, Stockholms kommun",2023-10-20,11750000,11500000.0,109813,Lägenhet,3.0,107,Ja,Unknown,False,1897.0,6142,0,Kristina Lissheim,Alexander White
+1161,Melodislingan 26,"Östermalm, Stockholms kommun",2023-10-27,14100000,14950000.0,120513,Lägenhet,4.0,117,Ja,2,True,2019.0,7526,16841,Richard Petersson,Fastighetsbyrån Stockholm – Östermalm
+629,Furusundsgatan 14,"Gärdet, Stockholms kommun",2023-11-03,8125000,7950000.0,97892,Lägenhet,4.0,83,Ja,1 av 8,True,1938.0,4963,0,Victor Sjölund,HusmanHagberg Östermalm
+651,"Älvkarleövägen 12, 2tr!","Hjorthagen, Stockholms kommun",2023-11-03,3295000,3175000.0,74548,Lägenhet,2.0,442,Nej,2 av 3,True,1936.0,3172,13950,Linnea Mott,Alicia Edelman Fastighetsmäkleri
+1583,Kocksgatan 29,"Södermalm, Stockholms kommun",2023-10-24,3750000,2995000.0,110294,Lägenhet,1.0,34,Ja,3 av 6,True,1930.0,2131,5880,Pim Janjam,Erik Olsson Fastighetsförmedling
+1199,Östgötagatan 33,"Södermalm, Stockholms kommun",2023-10-27,5350000,5225000.0,97273,Lägenhet,2.0,55,Nej,1,True,1912.0,2274,5301,Konstantin Dallas,Historiska Hem
+1627,Järfällavägen 94b,"Jakobsberg, Järfälla kommun",2023-10-24,2620000,2595000.0,35890,Lägenhet,3.0,73,Unknown,Unknown,False,2018.0,4674,2640,Denise Hägerstrand,Mäklarhuset Järfälla
+1905,Bondegatan 27,"Södermalm, Stockholms kommun",2023-10-20,5600000,5995000.0,71338,Lägenhet,3.0,785,Nej,1 av 6,True,1968.0,4371,7320,Didrik Peterson,Erik Olsson Fastighetsförmedling
+522,"Dalagatan 39A, 2tr","Vasastan, Stockholms kommun",2023-11-06,3875000,3595000.0,133621,Lägenhet,2.0,29,Ja,2 av 5,True,1912.0,1490,6000,Desirée Nilsson,Notar
+838,Kantatvägen 21,"Nacka Forum, Nacka kommun",2023-11-01,2520000,2495000.0,36522,Lägenhet,2.0,69,Ja,1,True,,5088,7500,Carolina Ramsten,Svensk Fastighetsförmedling Nacka
+2238,"Hägerstensvägen 201, Vån 2/3",Aspudden,2023-10-17,2850000,2495000.0,69512,Lägenhet,1.0,41,Ja,2 av 3,True,1939.0,2670,0,Hanna Elfsson,Notar
+979,Klövervägen 5,"Råsunda, Solna kommun",2023-10-31,1900000,1850000.0,79167,Lägenhet,1.0,24,Nej,3 av 3,True,1943.0,1892,4680,Gurvinder Singh,Notar
+199,Långhalsvägen 20E,"Årsta, Stockholms kommun",2023-11-09,3100000,2995000.0,63918,Lägenhet,2.0,485,Ja,2 av 4,True,2022.0,3417,4500,Johan Nilsson,HusmanHagberg Enskede
+2138,Fatburs Brunnsgata 27 (Högst upp),"Södermalm, Stockholms kommun",2023-10-18,6500000,5995000.0,77844,Lägenhet,4.0,835,Unknown,7 av 7,True,1990.0,5031,6612,Jonna Sommarhed,Svensk Fastighetsförmedling Sthlm Södermalm
+1137,Wiboms väg 9,"Huvudsta, Solna kommun",2023-10-28,2650000,2495000.0,56383,Lägenhet,2.0,47,Nej,1 av 8,True,1967.0,2890,4300,Adam Behrer,MOHV Solna
+2285,"Drottninghusgränd 2, 3 tr",Vasastan,2023-10-17,5000000,4995000.0,131579,Lägenhet,2.0,38,Nej,3 av 4,True,1884.0,1978,0,Magnus Larsson,Tradition Mäkleri
+350,"Döbelnsgatan 77, 3tr","Vasastan, Stockholms kommun",2023-11-08,10700000,9495000.0,133750,Lägenhet,4.0,80,Ja,3 av 6,True,1905.0,977,18600,Joakim Andersson,SkandiaMäklarna Stockholm Vasastan
+1128,Hagaesplanaden 76,Vasastan,2023-10-28,8550000,8600000.0,101786,Lägenhet,4.0,84,Ja,7,True,2023.0,4880,3120,Joseph Rashid,Fastighetsbyrån Stockholm - Vasastan
+1402,Stallgatan 10B,"Centrala Väsby, Upplands Väsby kommun",2023-10-26,2210000,2200000.0,26310,Lägenhet,3.0,84,Ja,7 av 7,True,1973.0,4765,4632,Annika Walcott,Bjurfors Upplands Väsby
+2034,"Årstavägen 65, 2 tr","Årsta, Stockholms kommun",2023-10-19,2750000,2475000.0,61798,Lägenhet,2.0,445,Ja,2,True,1947.0,3491,3600,Monia Belgacem,BOSTHLM Årsta
+211,"Katarina Bangata 69, vån 2","Sofia, Stockholms kommun",2023-11-09,8300000,7695000.0,96512,Lägenhet,3.0,86,Ja,2,True,1967.0,4320,0,Sofia Ekander,Fastighetsbyrån Stockholm - Södermalm
+1870,"Stensövägen 5, 2 tr",Älta,2023-10-20,2500000,2395000.0,32051,Lägenhet,3.0,78,Ja,2 av 7,True,1971.0,5045,7056,Rebecca Nowicka,Erik Olsson Fastighetsförmedling
+821,"Lindhagensgatan 145, 8 tr","Hornsbergs Strand, Stockholms kommun",2023-11-01,8650000,8500000.0,98295,Lägenhet,3.0,88,Ja,8 av 8,True,2013.0,4214,6000,Pia Lasses,Erik Olsson Fastighetsförmedling
+1073,"Roslagsgatan 58, 5 tr",Vasastan,2023-10-30,6700000,6795000.0,103077,Lägenhet,2.0,65,Ja,5 av 6,True,1925.0,4027,0,Magnus Larsson,Tradition Mäkleri
+1963,Hästhagsgatan 14,"Sundbyberg, Sundbybergs kommun",2023-10-19,6500000,6495000.0,55085,Lägenhet,5.0,118,Nej,2 av 3,True,,6195,0,Alexander Langer,Länsförsäkringar Fastighetsförmedling Sundbyberg
+1344,Molkomsbacken 23,Farsta,2023-10-26,1975000,1895000.0,51974,Lägenhet,1.0,38,Ja,Unknown,False,1958.0,1887,0,Simon Strand,Notar
+1487,"Wollmar Yxkullsgatan 5B, 2tr",Södermalm,2023-10-25,7550000,6950000.0,112687,Lägenhet,3.0,67,Ja,2,True,1929.0,4501,7080,Jonas Hansson,Unika Hem Fastighetsmäkleri
+1159,Kopparvägen 19,"Kallhäll, Järfälla kommun",2023-10-27,2900000,3095000.0,25439,Lägenhet,4.0,114,Ja,7 av 8,True,1958.0,6387,7200,André Zadeh,Notar
+2314,Gustaf Adolfsväg 50 A,"Grossgärdet, Norrtälje kommun",2023-10-16,1550000,1550000.0,29524,Lägenhet,2.0,525,Unknown,2 av 2,True,,3162,5042,Jacob Lund,Fastighetsbyrån Norrtälje
+1596,Storgatan 72A,"Huvudsta, Solna kommun",2023-10-24,4175000,4175000.0,55298,Lägenhet,3.0,755,Ja,3,True,2013.0,4827,0,Jannis Nikopoulos,Länsförsäkringar Fastighetsförmedling Solna
+2397,"Fyrverkarbacken 21, 13 tr",Kungsholmen,2023-10-15,11000000,11000000.0,96491,Lägenhet,5.0,114,Ja,Unknown,False,1962.0,7131,6200,Mats Uddare,Karlsson & Uddare AB
+2097,"Eskadervägen 34, 7TR","Näsby Park, Täby kommun",2023-10-18,4000000,4195000.0,43478,Lägenhet,4.0,92,Ja,7 av 8,True,1958.0,5111,0,Robin Jusélius,Magnusson Mäkleri Täby AB
+461,Wiboms väg 8,"Huvudsta, Solna kommun",2023-11-07,2600000,2595000.0,118182,Lägenhet,1.0,22,Ja,10 av 10,True,1967.0,2148,3500,Gabriel Youhanoun,STHLM ESTATE
+1561,Vittangigatan 37,"Vällingby Centrum, Stockholms kommun",2023-10-24,2650000,2495000.0,35333,Lägenhet,3.0,75,Ja,1 av 3,True,1953.0,4788,3600,Alexander Elezov,Fastighetsbyrån Hässelby/Vällingby/Spånga
+2112,"Diktarvägen 8, vån 4","Västra Skogen, Solna kommun",2023-10-18,4900000,5095000.0,59394,Lägenhet,3.0,825,Ja,4 av 6,True,2016.0,4819,0,Jonathan Rappel,Länsförsäkringar Fastighetsförmedling Solna
+1014,Blotgränd 1C,"Täby Kyrkby, Täby kommun",2023-10-31,2740000,2950000.0,42481,Lägenhet,2.0,645,Ja,2 av 2,True,2003.0,4240,0,Rima Senkal,Länsförsäkringar Fastighetsförmedling Täby
+296,Skeppstavägen 29,"Bandhagen, Stockholms kommun",2023-11-08,3900000,3495000.0,42391,Lägenhet,4.0,92,Ja,2 av 3,True,1953.0,5516,4800,Dennis Sivertsson,Länsförsäkringar Fastighetsförmedling Årsta-Bandhagen
+1641,"Wennerbergsgatan 6A, 5 Tr","Marieberg, Stockholms kommun",2023-10-24,2800000,2495000.0,96552,Lägenhet,1.0,29,Ja,5 av 7,True,1945.0,1699,4600,Nicklas Kling,Alicia Edelman Fastighetsmäkleri
+790,Mäster Simons Väg 6A,"Ritorp, Solna kommun",2023-11-01,2600000,2395000.0,49057,Lägenhet,2.0,53,Ja,2,True,2005.0,5544,8160,Jacob Habib,Notar
+787,Bäckaskiftsvägen 76,"Stureby, Stockholms kommun",2023-11-01,2770000,2695000.0,48596,Lägenhet,3.0,57,Ja,2 av 3,True,1951.0,2945,4176,Sebastian Andersson,Fastighetsbyrån Enskede
+929,Regementsgatan 52,"Ritorp, Solna kommun",2023-10-31,2700000,2495000.0,49360,Lägenhet,2.0,547,Ja,1 av 3,True,1956.0,2912,0,Jonathan Rappel,Länsförsäkringar Fastighetsförmedling Solna
+196,"S:t Ansgars väg 10B, vån 5","Råsunda, Solna kommun",2023-11-09,2590000,2250000.0,80938,Lägenhet,2.0,32,Ja,5 av 6,True,1940.0,2189,3600,John Borja,Länsförsäkringar Fastighetsförmedling Solna
+1247,Karlavägen 48a,"Östermalm, Stockholms kommun",2023-10-27,8300000,7995000.0,143103,Lägenhet,3.0,58,Ja,3 av 4,True,1881.0,2312,4500,Veronica Andersson,Behrer & Partners
+1842,"Ågesta Broväg 82, vån 3","Farsta, Stockholms kommun",2023-10-20,2900000,3000000.0,42647,Lägenhet,2.0,68,Ja,3 av 5,True,2013.0,3880,0,William Wallsén,Bjurfors Hammarby/Skarpnäck & Farsta
+937,Emågatan 16,"Bagarmossen, Stockholms kommun",2023-10-31,3000000,3100000.0,44776,Lägenhet,3.0,67,Ja,2 av 3,True,1953.0,5406,8880,Walid Mirzazadeh,Länsförsäkringar Fastighetsförmedling Stockholm - Enskede
+617,SÖRGÅRDEN 129,"Sörgården, Vallentuna kommun",2023-11-03,2150000,2195000.0,22165,Lägenhet,4.0,97,Ja,1 av 3,True,1969.0,5688,5500,Filip Gröholt,Mäklarringen Täby
+29,Fänrikens gata 5,"Näsby Park, Täby kommun",2023-11-11,8200000,8350000.0,84536,Lägenhet,4.0,97,Nej,Unknown,False,2020.0,5722,0,Mattias Lindqvist,Magnusson Mäkleri AB
+642,Mäster Simons Väg 13A,"Ritorp, Solna kommun",2023-11-03,2052000,1995000.0,54574,Lägenhet,2.0,376,Nej,1 av 5,True,1997.0,2667,5880,Irma Arvidsson,Erik Olsson Fastighetsförmedling
+2016,Åbylundsvägen 103,"Västerhaninge, Haninge kommun",2023-10-19,1300000,1595000.0,21667,Lägenhet,2.0,60,Ja,2 av 2,True,1984.0,4680,4800,Felix Winnersjö,MOHV Tyresö/Haninge
+1530,Koltrastvägen 1,"Näsby Park, Täby kommun",2023-10-25,3100000,3275000.0,44160,Lägenhet,3.0,702,Ja,2 av 2,True,1960.0,4056,0,Sebastian Eriksson,Svenska Mäklarhuset Täby
+229,Tre kronors väg 15,"Kvarnholmen, Nacka kommun",2023-11-09,3250000,2995000.0,58036,Lägenhet,2.0,56,Ja,3 av 3,True,,3611,0,Christopher Storm,Svensk Fastighetsförmedling Nacka
+430,Gamla Huddingevägen 446,"Örby, Stockholms kommun",2023-11-07,2550000,2495000.0,45536,Lägenhet,2.0,56,Ja,2 av 3,True,1957.0,2484,4800,Dennis Sivertsson,Länsförsäkringar Fastighetsförmedling Årsta-Bandhagen
+188,Nybrogatan 81A,"Östermalm, Stockholms kommun",2023-11-09,4350000,3995000.0,131818,Lägenhet,2.0,33,Nej,3 av 6,True,1927.0,1557,5400,Sofia Wetterberg,Widerlöv Vasastan/Östermalm
+407,Täppgränd 10,"Enskededalen, Stockholms kommun",2023-11-07,4900000,5250000.0,49797,Lägenhet,4.0,984,Unknown,1 av 4,True,1982.0,5286,8000,Henrik Ivansson,Fastighetsbyrån Enskede
+2245,"Hallandsgatan 50A, 1 tr","Katarina, Stockholms kommun",2023-10-17,3600000,3195000.0,105882,Lägenhet,2.0,34,Unknown,1,True,1927.0,2125,5666,Sofia Ekander,Fastighetsbyrån Stockholm - Södermalm
+1766,Slalomvägen 11,"Västertorp, Stockholms kommun",2023-10-21,2850000,2795000.0,51818,Lägenhet,2.0,55,Ja,3 av 3,True,1949.0,4035,3648,Enkidu Afram,Fastighetsbyrån Hägersten/Älvsjö
+210,Kristinebergsvägen 22,Kungsholmen,2023-11-09,3240000,3195000.0,73636,Lägenhet,1.0,44,Nej,1 av 4,True,1980.0,2297,0,David Garrett,Bjurfors Kungsholmen
+472,Primusgatan 88,"Lilla Essingen/Kungsholmen, Stockholms kommun",2023-11-07,4450000,4750000.0,79464,Lägenhet,2.0,56,Ja,2,True,2003.0,3564,7320,Frida Selling,Erik Olsson Fastighetsförmedling
+685,"Sankt Eriksgatan 14 A, 3 tr","Kungsholmen, Stockholms kommun",2023-11-03,5750000,5295000.0,108491,Lägenhet,2.0,53,Ja,3 av 5,True,1912.0,2586,0,Hanna Thor,Mäklarhuset Stockholm Innerstan
+259,"Tobaksspinnargatan 10, 3 tr","Södermalm, Stockholms kommun",2023-11-09,3600000,3495000.0,85714,Lägenhet,1.0,42,Ja,3,True,1932.0,2625,4956,Sanna Treijs,Notar
+602,Auravägen 13,"Djursholm, Danderyds kommun",2023-11-03,13850000,13995000.0,88217,Lägenhet,6.0,157,Nej,1 av 2,True,1886.0,7049,10000,Valerie Petrova,Historiska Hem
+2149,Sjödalsbacken 5,"Centrala Huddinge, Huddinge kommun",2023-10-18,2550000,2295000.0,41803,Lägenhet,2.0,61,Unknown,Unknown,False,1956.0,2530,9600,Anton Ström,Svensk Fastighetsförmedling Huddinge
+819,Docentbacken 13,"Ekhagen, Stockholms kommun",2023-11-01,7500000,7495000.0,58457,Lägenhet,5.0,1283,Unknown,5 av 6,True,1968.0,6856,2052,Christian Johansson,Hemverket AB
+1730,Vasavägen 23,"Vasalund, Solna kommun",2023-10-23,3650000,3295000.0,64035,Lägenhet,2.0,57,Nej,1 av 3,True,1942.0,2822,2136,Irma Arvidsson,Erik Olsson Fastighetsförmedling
+279,Björnsonsgatan 58,Bromma,2023-11-09,3725000,3790000.0,53986,Lägenhet,3.0,69,Ja,6 av 9,True,2006.0,4380,0,Andreas Nilsson,Notar
+408,"Strålgatan 21, 2 tr",Lilla Essingen,2023-11-07,2565000,2495000.0,91607,Lägenhet,1.0,28,Ja,2,True,1938.0,2051,0,Robin Heimberger,Fastighetsbyrån Bromma
+2107,Beckomberga Skogsväg 4,Bromma,2023-10-18,4000000,3950000.0,57143,Lägenhet,3.0,70,Ja,4 av 5,True,2017.0,4795,6600,Emelie Åkerström,Bjurfors Bromma
+1694,Granitvägen 40A,"Centrala Tyresö, Tyresö kommun",2023-10-23,2300000,2095000.0,25843,Lägenhet,4.0,89,Ja,3 av 3,False,1964.0,5712,4800,Ella Hedlund,SkandiaMäklarna Tyresö/Älta
+940,"Jungfrudansen 12, vån 5","Huvudsta, Solna kommun",2023-10-31,2295000,2495000.0,63750,Lägenhet,1.0,36,Ja,5 av 7,True,,2086,0,Marcus Löwenhoff,Länsförsäkringar Fastighetsförmedling Solna
+1393,Klintbacken 74a,"Mariehäll, Stockholms kommun",2023-10-26,3080000,2995000.0,55000,Lägenhet,2.0,56,Unknown,Unknown,False,,4767,0,Hevrê Yildiz,Mäklarhuset Bromma
+1737,Rosenhöjdsvägen 23,"Rosenlund, Södertälje kommun",2023-10-22,1650000,1700000.0,25781,Lägenhet,2.0,64,Unknown,1 av 6,True,,4425,2655,Sofia Sörensen,Fastighetsbyrån Södertälje
+69,Hammarby allé 55B,Södermalm,2023-11-10,13800000,16000000.0,99281,Lägenhet,4.0,139,Ja,6 av 6,True,2014.0,7529,25059,Andreas Nylén,Tradition Mäkleri
+2225,Ibsengatan 64,"Bromma Blackeberg, Stockholms kommun",2023-10-17,2550000,2295000.0,47222,Lägenhet,2.0,54,Ja,2 av 3,True,1951.0,2730,6000,Joel Beck-Friis,HusmanHagberg Bromma
+1317,Grubbens gata 9,"Kungsholmen, Stockholms kommun",2023-10-26,8200000,7490000.0,96471,Lägenhet,3.0,85,Nej,Unknown,False,,4086,8004,Johanna Lindbäck,Notar
+438,Farstavägen 89,"Farsta, Stockholms kommun",2023-11-07,3400000,3450000.0,35233,Lägenhet,5.0,965,Ja,4 av 16,True,,5970,0,Nina Eklund,Svenska Mäklarhuset Farsta
+1511,"Garvargatan 19, 2 tr","Kungsholmen, Stockholms kommun",2023-10-25,7700000,7900000.0,98718,Lägenhet,3.0,78,Ja,2 av 6,True,1985.0,3040,3000,Mats Uddare,Karlsson & Uddare AB
+998,Docentbacken 1b,"Ekhagen, Stockholms kommun",2023-10-31,3800000,3995000.0,54286,Lägenhet,2.0,70,Ja,4,True,1968.0,4035,5880,Julia Laitinen,Erik Olsson Fastighetsförmedling
+2398,Sibyllegatan 14 A,"Östermalm, Stockholms kommun",2023-10-15,8400000,8250000.0,131250,Lägenhet,2.0,64,Ja,2 av 4,False,1908.0,1739,0,Daniel Levin,Behrer & Partners
+96,Fregattvägen 8,"Bodal, Lidingö kommun",2023-11-10,2450000,2450000.0,68056,Lägenhet,2.0,36,Unknown,9 av 12,True,1960.0,1592,2508,Tina Stening,Svensk Fastighetsförmedling Lidingö
+282,Olaus petrigatan 10,"Gärdet, Stockholms kommun",2023-11-08,3200000,2995000.0,106667,Lägenhet,1.0,30,Nej,0,True,1953.0,1438,4800,Ebba Thielebeule,Alicia Edelman Fastighetsmäkleri
+2267,Kristinebergs Slottsväg 7,"Kristineberg, Stockholms kommun",2023-10-17,6650000,6800000.0,85256,Lägenhet,3.0,78,Ja,1,True,2020.0,4274,10800,Johannah Adler,Diplomat Fastighetmäkleri
+2207,Brännkyrkagatan 40,"Maria, Stockholms kommun",2023-10-17,3925000,3495000.0,106081,Lägenhet,2.0,37,Unknown,3,True,1911.0,3080,7620,Felipe Osorio Åström,Fastighetsbyrån Stockholm - Södermalm
+1614,"Norrbackagatan 24, 1tr",Birkastan,2023-10-24,5895000,5895000.0,99915,Lägenhet,2.0,59,Unknown,1 av 5,True,1926.0,2395,8040,Andreas Köhler,SkandiaMäklarna Stockholm Vasastan
+1211,Kantarellvägen 8,"Bällstaberg, Vallentuna kommun",2023-10-27,3400000,3495000.0,33074,Lägenhet,4.0,1028,Ja,2 av 2,True,1999.0,6361,18000,Jesper Lindqvist,HusmanHagberg Vallentuna
+1165,Maskinistvägen 13,"Bolinder strand, Järfälla kommun",2023-10-27,2498000,2495000.0,45418,Lägenhet,2.0,55,Ja,5,True,2019.0,3380,12000,André Zadeh,Notar
+927,Aftonvägen 9,"Tullinge, Botkyrka kommun",2023-10-31,1875000,2295000.0,27174,Lägenhet,2.0,69,Ja,1 av 4,True,1979.0,3371,0,Hanna Parwén,Notar
+1387,Kirunagatan 50,"Vällingby  Centrum, Stockholms kommun",2023-10-26,1375000,995000.0,52885,Lägenhet,1.0,26,Unknown,2 av 3,False,1954.0,1676,4560,Gabriel Nordenhaag,Mäklarhuset Vällingby-Hässelby
+2181,Hornstulls Strand 1,"Södermalm Högalid, Stockholms kommun",2023-10-18,7835000,6995000.0,94398,Lägenhet,3.0,83,Nej,1 av 5,True,1886.0,3623,0,Fanny Strand,Bjurfors Södermalm
+1001,Vackra vägen 10B,Sundbyberg,2023-10-31,4475000,4495000.0,53274,Lägenhet,3.0,84,Ja,2,True,2008.0,5097,8820,Elin Johansson,Notar
+1223,Råsundavägen 127,"Gamla Råsunda, Solna kommun",2023-10-27,2520000,2295000.0,81290,Lägenhet,1.0,31,Unknown,1,False,1912.0,1361,0,Robert Sundström,SkandiaMäklarna Solna
+471,Norra Stationsgatan 64B,"Hagastaden, Stockholms kommun",2023-11-07,3750000,3750000.0,84270,Lägenhet,2.0,445,Nej,4 av 12,True,2023.0,2800,0,Marianna Maatouk,Bronze Fastighetsförmedling AB
+416,"Sankt Göransgatan 72, vån 3","Kungsholmen, Stockholms kommun",2023-11-07,3850000,3495000.0,102667,Lägenhet,1.0,375,Ja,3 av 4,True,1939.0,1012,2700,Evelinn Åkerman,Alicia Edelman Fastighetsmäkleri
+254,Tegvägen 1,"Viksjö, Järfälla kommun",2023-11-09,3050000,3100000.0,41216,Lägenhet,3.0,74,Ja,2 av 5,True,2017.0,4489,7248,Camilla Lindqvist,Mäklarringen Järfälla
+1612,Helgagatan 36N,"Södermalm, Stockholms kommun",2023-10-24,4250000,3995000.0,100000,Lägenhet,2.0,425,Unknown,2,False,1926.0,2632,0,Jonna Sommarhed,Svensk Fastighetsförmedling Sthlm Södermalm
+443,Skogsgatan 21,"Bergvik, Södertälje kommun",2023-11-07,3325000,3195000.0,37784,Lägenhet,3.0,88,Ja,4 av 6,True,2012.0,5219,6000,"Anna Blid, Svensk Fastighetsförmedling",Svensk Fastighetsförmedling Södertälje
+1056,Farstavägen 177,"Farsta centrum, Stockholms kommun",2023-10-30,2600000,2600000.0,34211,Lägenhet,3.0,76,Ja,1 av 5,True,1990.0,5452,6000,Tommy Sundvall,Mäklarhuset Enskede
+1472,"Furusundsgatan 13, 7tr",Gärdet,2023-10-25,5100000,5200000.0,92727,Lägenhet,2.0,55,Ja,Unknown,False,1938.0,2508,0,Mourad Tajiou,Notar
+251,Östermalmsgatan 75,"Östermalm, Stockholms kommun",2023-11-09,17900000,18600000.0,123448,Lägenhet,4.0,145,Ja,2 av 5,True,1897.0,7541,18000,Anita Ek,Ek & Co Fastighetsförmedling AB
+2307,Fyrverkarbacken 27,"Kungsholmen, Stockholms kommun",2023-10-16,5250000,5295000.0,79545,Lägenhet,3.0,66,Ja,6,True,1962.0,4264,4200,Felicia Roberts,Notar
+1783,Frejgatan 45,Märsta,2023-10-21,1595000,1595000.0,21267,Lägenhet,4.0,75,Ja,3 av 3,True,1967.0,5349,7968,Dunja Tabakovic,AFI FastighetsMäklare
+2042,Backvägen 3,"Råsunda, Solna kommun",2023-10-19,4295000,4295000.0,56513,Lägenhet,3.0,76,Ja,5,True,1954.0,4210,0,Mike Chammas,Länsförsäkringar Fastighetsförmedling Solna
+1486,Pilvingegatan 48,"Skarpnäck, Stockholms kommun",2023-10-25,3900000,3495000.0,43333,Lägenhet,4.0,90,Ja,1,True,,5757,1140,Richard Ivansson,Fastighetsbyrån Enskede
+759,Celsiusgatan 3A,"Kungsholmen, Stockholms kommun",2023-11-02,3250000,3450000.0,108333,Lägenhet,1.0,30,Unknown,0 av 5,False,1899.0,1452,0,Magnus Jernbeck,BlumenthalHoffman Fastighetsmäkleri
+900,Andersvägen 5,"Haga Norra, Solna kommun",2023-10-31,2800000,2995000.0,57143,Lägenhet,2.0,49,Ja,4,True,1993.0,3495,6900,Viktor Milovanovic,Fastighetsbyrån Solna
+433,Erik Dahlbergsgatan 35,"Östermalm / Nedre Gärdet, Stockholms kommun",2023-11-07,3800000,3495000.0,97436,Lägenhet,2.0,39,Unknown,Unknown,False,1937.0,2340,1200,Thilde Ångström,Fastighetsbyrån Stockholm – Östermalm
+2367,Storövägen 1,"Östra Kanalstaden, Österåkers kommun",2023-10-16,2200000,2295000.0,51163,Lägenhet,2.0,43,Ja,1 av 4,True,2018.0,3361,4200,Malin Fuierer,HusmanHagberg Österåker
+1364,"Sköntorpsvägen 5, 4 tr","Årsta, Stockholms kommun",2023-10-26,3900000,3495000.0,64463,Lägenhet,2.0,605,Ja,4 av 8,True,2011.0,4203,4800,Selma Fazlic,Svensk Fastighetsförmedling *Årsta
+1064,Alpvägen 27,Bromma,2023-10-30,2450000,2290000.0,58333,Lägenhet,1.0,42,Nej,2,True,2017.0,2582,0,Andreas Pettersson,Notar
+1700,Harpsundsvägen 39,"Högdalen, Stockholms kommun",2023-10-23,2325000,2095000.0,39407,Lägenhet,2.0,59,Unknown,2 av 3,True,1950.0,3248,9619,Kim Ekholm,Fastighetsbyrån Farsta/ Högdalen/ Skogås
+637,Hasselbacken 5,"Centrala Väsby, Upplands Väsby kommun",2023-11-03,2350000,2495000.0,29193,Lägenhet,3.0,805,Unknown,1 av 5,True,1978.0,5138,5500,Orhan Aydin,Fastighetsbyrån Upplands Väsby
+1050,"Solgatan 10, Vån 3","Rudviken/Solna C, Solna kommun",2023-10-30,4000000,3995000.0,54422,Lägenhet,3.0,735,Ja,3,True,,4551,0,Robert Sundström,SkandiaMäklarna Solna
+930,Skebokvarnsvägen 97,"Bandhagen, Stockholms kommun",2023-10-31,2150000,2295000.0,37719,Lägenhet,2.0,57,Ja,3,True,1954.0,3887,6000,Siya Babaoglu,Notar
+1513,"Tavastgatan 5, 2tr",Södermalm,2023-10-25,4560000,4350000.0,106047,Lägenhet,2.0,43,Nej,2 av 5,True,1939.0,2838,11328,Emily Medqvist,Tradition Mäkleri
+1394,Huggarvägen 31,"Västerhaninge, Haninge kommun",2023-10-26,1300000,1295000.0,20313,Lägenhet,2.0,64,Unknown,1 av 3,False,,5015,6000,Daniel Ekdahl,Mäklarhuset Haninge
+1778,"Agnes Lagerstedts gata 12, 5 tr","Fruängen, Stockholms kommun",2023-10-21,2800000,2795000.0,50909,Lägenhet,2.0,55,Ja,5 av 7,True,1955.0,3403,7356,Caroz Hassan,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+949,"Dansbanevägen 28, 1 tr","Västberga/Telefonplan, Stockholms kommun",2023-10-31,2925000,2895000.0,47951,Lägenhet,3.0,61,Ja,1 av 3,True,1946.0,3600,6350,Kristoffer Pettersson,Svenska Mäklarhuset Hägersten/Liljeholmen
+1725,Läckövägen 22,"Hammarbyhöjden, Stockholms kommun",2023-10-23,3900000,3995000.0,71560,Lägenhet,2.0,545,Unknown,2 av 3,False,,3287,6800,Martin Adolfsson,BOSTHLM Johanneshov/Hammarbyhöjden
+149,"Hagalundsgatan 22, vån 7","Hagalund, Solna kommun",2023-11-10,2600000,2795000.0,38806,Lägenhet,3.0,67,Ja,7 av 13,True,1973.0,4087,3600,Okan Korhan,SthlmFast
+208,Lejonets Gata 386,"Brandbergen, Haninge kommun",2023-11-09,1170000,1195000.0,17727,Lägenhet,2.0,66,Ja,5 av 6,True,1967.0,5556,3000,Lovisa Runsten,Länsförsäkringar Fastighetsförmedling Haninge
+2196,Pontonjärgatan 16,"Kungsholmen, Stockholms kommun",2023-10-18,3600000,3300000.0,112500,Lägenhet,2.0,32,Unknown,Unknown,False,1931.0,1954,0,Erik Bysell,Nestor Fastighetsmäkleri
+402,Jönåkersvägen 6,Enskede,2023-11-07,3800000,3850000.0,51351,Lägenhet,4.0,74,Ja,2 av 3,True,1950.0,4555,0,Gustav Westerståhl,Svenska Mäklarhuset Årsta / Enskede
+2341,Essingestråket 37,Kungsholmen,2023-10-16,7275000,7695000.0,95724,Lägenhet,3.0,76,Ja,2 av 3,True,1939.0,3664,12900,Emma Wallin,Wallin & Co AB
+840,Rämensvägen 33,"Årsta, Stockholms kommun",2023-11-01,3930000,3995000.0,61406,Lägenhet,3.0,64,Ja,3 av 3,True,1945.0,5086,0,David Ling,SkandiaMäklarna Älvsjö/Årsta
+482,Wergelandsgatan 4,Bromma,2023-11-07,3950000,4190000.0,45930,Lägenhet,4.0,86,Ja,2 av 3,True,1951.0,4947,0,Andreas Nilsson,Notar
+1368,"Skeppargatan 75, 6av6 tr","Nedre Gärdet, Stockholms kommun",2023-10-26,2950000,2695000.0,155263,Lägenhet,1.0,19,Ja,6 av 6,True,,1245,0,Mattias Wedberg,Svensk Fastighetsförmedling Sthlm Östermalm/Gärdet
+2248,"Åkerbyvägen 194, 1 tr","Täby Centrum, Täby kommun",2023-10-17,3000000,2995000.0,36810,Lägenhet,3.0,815,Ja,1 av 3,True,1964.0,4090,8920,Christoffer Stendahl,Fastighetsbyrån Täby
+857,Lidnersgatan 10B,"Kungsholmen, Stockholms kommun",2023-11-01,2200000,2195000.0,100000,Lägenhet,1.0,22,Nej,0,True,1938.0,1907,3000,Emilia Aspelin,Notar
+1017,Tappvägen 31D,"Bromma / Annedal, Stockholms kommun",2023-10-30,2100000,1995000.0,60000,Lägenhet,1.0,35,Nej,1 av 7,True,2021.0,2071,8677,Daniel Andersson,Svenska Mäklarhuset Bromma
+2093,Bodalsvägen 12,"Bodal, Lidingö kommun",2023-10-18,4700000,4290000.0,61039,Lägenhet,3.0,77,Ja,4 av 6,True,1953.0,4305,7140,Hampus Åsén,Bjurfors Östermalm/Lidingö
+993,Kulfångsgatan 2,"Vendelsö, Haninge kommun",2023-10-31,1595000,1745000.0,20714,Lägenhet,2.0,77,Ja,3 av 5,True,1993.0,5361,4200,Lovisa Runsten,Länsförsäkringar Fastighetsförmedling Haninge
+2231,"Meanderslingan 34, 2tr","Järvastaden, Solna kommun",2023-10-17,2920000,2795000.0,53578,Lägenhet,2.0,545,Ja,2,True,2015.0,2775,9792,Benjamin Afsan,Norban
+2175,Grev Turegatan 80,"Östermalm, Stockholms kommun",2023-10-18,16250000,14950000.0,182584,Lägenhet,3.0,89,Ja,5 av 5,True,1881.0,4494,0,Niclas Behrer,Behrer & Partners
+509,Brotorpsvägen 4,"Järvastaden, Solna kommun",2023-11-06,3000000,2995000.0,60000,Lägenhet,2.0,50,Ja,Unknown,False,,2820,0,Mirza Licina,Länsförsäkringar Fastighetsförmedling Solna
+387,"Fatburs kvarngata 22, vån 2","Södermalm, Stockholms kommun",2023-11-08,5100000,4595000.0,77273,Lägenhet,3.0,66,Ja,Unknown,False,1991.0,4519,9756,Linnéa Larsson,Notar
+544,Beckomberga Allé 16,"Bromma / Beckomberga, Stockholms kommun",2023-11-06,3850000,3750000.0,50658,Lägenhet,3.0,76,Ja,4 av 5,True,2010.0,5125,13577,Linnea Ragnevad,Svenska Mäklarhuset Bromma
+353,"Timmermansgatan 2 B, 1 tr/Bastugatan 38",Södermalm,2023-11-08,4250000,3795000.0,106250,Lägenhet,1.0,40,Nej,1 av 3,True,1889.0,2187,5600,Björn Schumacher,Historiska Hem
+1374,Eklundshovsvägen 29B,"Riksten, Botkyrka kommun",2023-10-26,1795000,1795000.0,32636,Lägenhet,2.0,55,Unknown,Unknown,False,2016.0,3102,0,Johan Holmgren,SkandiaMäklarna Huddinge
+2147,Åsögatan 194,"Södermalm, Stockholms kommun",2023-10-18,4100000,3795000.0,89130,Lägenhet,2.0,46,Unknown,2 av 5,True,1930.0,2562,0,Jonna Sommarhed,Svensk Fastighetsförmedling Sthlm Södermalm
+1509,Kavallerigatan 38,"Centrala Väsby, Upplands Väsby kommun",2023-10-25,1695000,1695000.0,26905,Lägenhet,2.0,63,Nej,1 av 2,True,,3628,7200,Johan Bulut,Bjurfors Upplands Väsby
+1220,Björnbergsvägen 15C,"Kummelnäs, Nacka kommun",2023-10-27,1850000,1895000.0,59677,Lägenhet,1.0,31,Unknown,Unknown,False,2016.0,2087,5000,Isak Kanon,Fastighetsbyrån Nacka
+361,"Fyrspannsgatan 172, 5 tr","Hässelby Strand, Stockholms kommun",2023-11-08,1950000,1995000.0,52000,Lägenhet,2.0,375,Ja,5 av 17,True,2016.0,3394,5340,Joel Wikström,HusmanHagberg Vällingby/Hässelby/Spånga
+643,"Tre Liljor 5b, 1.5tr","Vasastan, Stockholms kommun",2023-11-03,4100000,3590000.0,113889,Lägenhet,2.0,36,Nej,1,True,1925.0,2098,2880,Martin Monko,Notar
+49,Heleneborgsgatan 13A,Södermalm,2023-11-10,3475000,3195000.0,93919,Lägenhet,2.0,37,Nej,1,True,1911.0,2145,0,Pelle Lundin Andersson,Notar
+67,"Folkungagatan 56, 3 tr","Södermalm, Stockholms kommun",2023-11-10,8300000,7450000.0,100000,Lägenhet,3.0,83,Ja,3,True,1974.0,2122,6600,Makis Batsoulis,Södermäklarna
+672,Skattungsvägen 14,"Årsta, Stockholms kommun",2023-11-03,2995000,2995000.0,52544,Lägenhet,2.0,57,Ja,2 av 3,False,1946.0,3638,12500,Richard Berg,Fastighetsmäklarna
+48,Tranebergsvägen 15B,"Bromma Traneberg, Stockholms kommun",2023-11-10,3680000,3580000.0,75102,Lägenhet,2.0,49,Ja,3 av 4,True,2023.0,4256,6000,Joel Beck-Friis,HusmanHagberg Bromma
+1194,Dansbanevägen 3,"Åkersberga Centralt, Österåkers kommun",2023-10-27,1795000,1895000.0,51286,Lägenhet,1.0,35,Ja,2 av 5,True,2020.0,2529,0,Joakim Torkelsson,Fastighetsbyrån Åkersberga
+2190,Albatrossvägen 82,"Vendelsömalm, Haninge kommun",2023-10-18,2375000,2395000.0,25815,Lägenhet,4.0,92,Ja,3 av 3,True,1969.0,5675,12480,Gustav Larsson,Erik Olsson Fastighetsförmedling
+2366,Karlavägen 119,"Karlaplan, Stockholms kommun",2023-10-16,12050000,13950000.0,93411,Lägenhet,4.0,129,Ja,1,True,1959.0,4465,2800,Jonathan Lundin,Lagerlings
+798,Mörbyleden 20,"Mörbyskogen, Danderyds kommun",2023-11-01,6100000,5995000.0,52361,Lägenhet,5.0,1165,Ja,1,True,1969.0,5620,6396,Alexander Syvertsson,Fastighetsbyrån Danderyd
+124,"Maria skolgata 87, 4 tr","Södermalm, Stockholms kommun",2023-11-10,3450000,3750000.0,98571,Lägenhet,2.0,35,Nej,4,True,2021.0,2633,3840,Sanna Treijs,Notar
+480,Malmgårdsvägen 16,Södermalm,2023-11-07,2750000,2495000.0,101852,Lägenhet,1.0,27,Nej,Unknown,False,1967.0,1537,0,Hanna Lundin,Notar
+859,Lostigen 34,"Bergshamra, Solna kommun",2023-11-01,3650000,3650000.0,57937,Lägenhet,2.0,63,Ja,3 av 3,True,,3219,0,Martin Eriksson,Länsförsäkringar Fastighetsförmedling Solna
+354,"Klyvarvägen 5, 3tr","Gröndal, Stockholms kommun",2023-11-08,6995000,5495000.0,118559,Lägenhet,3.0,59,Nej,3 av 3,True,1930.0,3492,0,Signe Caroline Sjövall,Notar
+2203,Södergatan 9B,"Märsta, Sigtuna kommun",2023-10-18,2300000,1995000.0,21316,Lägenhet,4.0,1079,Unknown,Unknown,False,19911993.0,6804,9540,Patrik Lidholm,Mäklarhuset Vällingby-Hässelby
+926,"Näsbydalsvägen 12, 13 tr","Näsbydal, Täby kommun",2023-10-31,2395000,2395000.0,35746,Lägenhet,3.0,67,Ja,13 av 16,True,1960.0,3691,6000,Christoffer Stendahl,Fastighetsbyrån Täby
+1735,Gaffelseglet 35,"Österhaninge, Haninge kommun",2023-10-22,1750000,1850000.0,50000,Lägenhet,2.0,35,Ja,4 av 5,True,2019.0,3335,4800,Karolina Christiernsson,Bjurfors Haninge
+632,Nynäsvägen 359,Enskede,2023-11-03,2400000,2450000.0,63158,Lägenhet,1.0,38,Nej,1 av 3,True,1933.0,2746,0,Fanny Hörndahl,Bjurfors Enskede
+2151,Sollentunavägen 134,"Sollentuna Centrum, Sollentuna kommun",2023-10-18,3415000,2995000.0,48786,Lägenhet,2.0,70,Ja,2 av 5,True,2008.0,4141,2400,Therese Johansson,Bjurfors Sollentuna
+478,"Siljansvägen 33, vån. 2","Årsta, Stockholms kommun",2023-11-07,2700000,2350000.0,60000,Lägenhet,2.0,45,Ja,2 av 3,False,1945.0,3669,4800,Pontus Pärson,BOSTHLM Årsta
+881,"Älvsjö Stationsgata 2 B, BV","Solberga, Stockholms kommun",2023-11-01,2850000,2895000.0,51818,Lägenhet,2.0,55,Nej,1 av 6,True,2017.0,3636,0,Victor Öfverberg,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+1911,"Fregattvägen 12, 2tr","Bodal, Lidingö kommun",2023-10-20,4700000,4700000.0,54023,Lägenhet,4.0,87,Ja,Unknown,False,,3848,1600,Madeleine Rune,Gadelius Fastighetsbyrå
+1266,"Tulegatan 27, vån 4","Vasastan, Stockholms kommun",2023-10-27,4350000,4350000.0,118529,Lägenhet,1.0,367,Nej,Unknown,False,1891.0,1504,0,Ronni Mleczkovicz,Bergets Ro Fastighetsförmedling
+435,Nybodagatan 5,"Skytteholm, Solna kommun",2023-11-07,6200000,5495000.0,55856,Lägenhet,6.0,111,Ja,2,True,1957.0,4887,6000,Pasha Sabouri,Notar
+2000,"Edinsvägen 1, 10tr","Ektorp, Nacka kommun",2023-10-19,3750000,3990000.0,37879,Lägenhet,4.0,99,Ja,10 av 10,True,,7236,9900,Maria Fjellner,Widerlöv Nacka/Värmdö
+2100,Motalavägen 27,"Hjorthagen, Stockholms kommun",2023-10-18,6675000,6395000.0,75509,Lägenhet,4.0,884,Unknown,1 av 3,True,1935.0,7381,21500,Christoffer Perenkranz,Fastighetsbyrån Stockholm – Norra Djurgårdsstaden
+240,Pastellvägen 11,"Skärmarbrink, Stockholms kommun",2023-11-09,3080000,2650000.0,77000,Lägenhet,2.0,40,Ja,4 av 7,True,1943.0,2494,7900,Cesar Fuentes,BOSTHLM Johanneshov/Hammarbyhöjden
+70,Torsvikssvängen 41,"Torsvik, Lidingö kommun",2023-11-10,3280000,3250000.0,61080,Lägenhet,2.0,537,Ja,2 av 6,True,1945.0,2687,0,Sebastian Granath,HusmanHagberg Lidingö
+367,Henriksdalsallén 31,"Hammarby Sjöstad, Stockholms kommun",2023-11-08,5200000,4995000.0,70270,Lägenhet,3.0,74,Ja,3,True,2013.0,4574,0,Daniel Åberg,Mäklarhuset Hammarby Sjöstad
+432,Järfällavägen 92A,"Jakobsberg, Järfälla kommun",2023-11-07,1530000,1550000.0,43714,Lägenhet,1.0,35,Unknown,Unknown,False,2019.0,2725,3240,Oscar Rehn,Fastighetsbyrån Järfälla
+73,Mastvägen 6A,"Vendelsö, Haninge kommun",2023-11-10,2320000,2395000.0,37724,Lägenhet,2.0,615,Nej,Unknown,False,1966.0,4266,4200,Karolina Christiernsson,Bjurfors Haninge
+1071,Långsvängen 23,"Vretarna, Botkyrka kommun",2023-10-30,2100000,1995000.0,26250,Lägenhet,3.0,80,Nej,1 av 2,True,,6373,10800,Fadi Haddad,Länsförsäkringar Fastighetsförmedling Botkyrka/Salem
+2197,"Tideliusgränd 9, vån 4/5","Södermalm, Stockholms kommun",2023-10-18,9950000,9950000.0,109341,Lägenhet,4.0,91,Ja,4 av 5,True,2019.0,4890,4400,David Folke,Erik Olsson Fastighetsförmedling
+532,Pressarvägen 6,"Kallhäll, Järfälla kommun",2023-11-06,2000000,2250000.0,36364,Lägenhet,2.0,55,Ja,1 av 5,True,2020.0,3348,0,Jony Eliyo,SkandiaMäklarna Järfälla
+554,Kulfångsgatan 4,"Vendelsömalm, Haninge kommun",2023-11-05,1595000,1595000.0,20714,Lägenhet,2.0,77,Ja,4,True,1992.0,5361,9950,Gullus Uzel,Fastighetsbyrån Haninge
+1776,"Samaritgränd 6, 2 tr","Södermalm, Stockholms kommun",2023-10-21,2625000,2150000.0,119318,Lägenhet,1.0,22,Unknown,2,True,1928.0,1167,7300,Carl-Filip Öster,BOSTHLM Fastighetsmäklare AB
+530,"Ninni Kronbergs Gata 22, 2tr",Vasastan,2023-11-06,5795000,5795000.0,99914,Lägenhet,3.0,58,Ja,2 av 7,True,2023.0,3712,2748,Andreas Ångström,Fastighetsbyrån Stockholm - Vasastan
+932,"Getfotsvägen 44, 2tr","Gubbängen, Stockholms kommun",2023-10-31,3550000,3495000.0,49306,Lägenhet,3.0,72,Ja,2 av 3,True,1949.0,4471,7487,Emma L Larsén,HusmanHagberg Farsta
+157,"Evenemangsgatan 18, vån 5","Arenastaden, Solna kommun",2023-11-09,2825000,2950000.0,65698,Lägenhet,2.0,43,Ja,Unknown,False,2014.0,2190,0,Kamjar Shahi,Notar
+610,Koltrastvägen 2 B,"Näsbypark, Täby kommun",2023-11-03,2800000,2795000.0,46667,Lägenhet,2.0,60,Unknown,Unknown,False,2007.0,3640,8675,Christoffer Stendahl,Fastighetsbyrån Täby
+1869,"Hagagatan 50A, 1 tr","Vasastan, Stockholms kommun",2023-10-20,5050000,4995000.0,95283,Lägenhet,2.0,53,Ja,1 av 4,True,1912.0,3421,0,Andreas Helgoson,HusmanHagberg Vasastan
+1849,Bjurholmsgatan 37,"Södermalm / Sofia, Stockholms kommun",2023-10-20,2350000,2295000.0,111905,Lägenhet,1.0,21,Unknown,Unknown,False,1927.0,1099,0,Ella Andersson,SkandiaMäklarna Stockholm Södermalm
+342,Trädgårdsvägen 2,"Runby, Upplands Väsby kommun",2023-11-08,2095000,2095000.0,38091,Lägenhet,2.0,55,Ja,6 av 8,True,2018.0,3861,4800,Lars Steneryd,SkandiaMäklarna Upplands Väsby
+1138,Trollvägen 7,"Kallhäll, Järfälla kommun",2023-10-28,1600000,1695000.0,28070,Lägenhet,2.0,57,Ja,2 av 3,True,1961.0,4054,0,Seydo Aydogan,SkandiaMäklarna Järfälla
+948,"Samaritgränd 6, 4+5 tr","Mariatorget, Stockholms kommun",2023-10-31,6250000,5850000.0,107759,Lägenhet,2.0,58,Ja,Unknown,False,,3076,7683,Pialotta Svensson,Fastighetsbyrån Stockholm - Södermalm
+1703,Majrovägen 35,"Gubbängen, Stockholms kommun",2023-10-23,4850000,4495000.0,52151,Lägenhet,4.0,93,Unknown,2,True,1996.0,5986,9000,Pierre Bohlin,ERA Enskede-Farsta kontoret
+668,Störtloppsvägen 1,"Västertorp, Stockholms kommun",2023-11-03,2100000,1995000.0,60000,Lägenhet,2.0,35,Nej,Unknown,False,1951.0,2186,8904,Christian Grsic,Erik Olsson Fastighetsförmedling
+51,"Lötmogatan 7, vån 3","Midsommarkransen, Stockholms kommun",2023-11-10,2225000,2195000.0,76724,Lägenhet,2.0,29,Ja,3 av 4,True,1940.0,2835,4714,Kristoffer Pettersson,Svenska Mäklarhuset Hägersten/Liljeholmen
+2021,Thunbergsgatan 25,"Hammarbyhöjden, Stockholms kommun",2023-10-19,4970000,4500000.0,76462,Lägenhet,3.0,65,Ja,3 av 3,True,1938.0,5106,0,Rikard Billborn,Mäklarhuset Hammarbyhöjden
+1864,Sicklingsvägen 10,"Gubbängen, Stockholms kommun",2023-10-20,2880000,2495000.0,54340,Lägenhet,2.0,53,Ja,1 av 3,True,1948.0,2998,7800,Annika Palmö,Bjurfors Enskede
+965,Malgomajvägen 3,"Årsta, Stockholms kommun",2023-10-31,4500000,4495000.0,56250,Lägenhet,4.0,80,Ja,3 av 3,True,1948.0,5100,7800,Emmy Hallbom,SkandiaMäklarna Älvsjö/Årsta
+1965,Henriksdalsringen 75,"Henriksdalsberget, Nacka kommun",2023-10-19,2770000,2695000.0,44677,Lägenhet,2.0,62,Ja,Unknown,False,1969.0,3380,5400,Fatos Cetinkaya,Widerlöv Nacka/Värmdö
+321,"Karlbergsvägen 70A, 2tr",Vasastan,2023-11-08,8300000,8500000.0,94318,Lägenhet,3.0,88,Ja,2,True,1898.0,5115,2220,Thérèse Lennefalk Löfgren,Fastighetsbyrån Stockholm - Vasastan
+2368,Skeppargatan 98,"Nedre Gärdet, Stockholms kommun",2023-10-16,3000000,2800000.0,130435,Lägenhet,1.0,23,Unknown,4,True,1933.0,1378,6000,Matilda Berlin,SJÖMAN\FRISK
+1756,"Karlsviksgatan 4, 1 tr","Kungsholmen, Stockholms kommun",2023-10-22,6850000,6250000.0,103788,Lägenhet,2.0,66,Ja,1 av 4,True,,3141,0,Lena Svartström,Mäklarhuset Stockholm Innerstan
+291,"Roslagsgatan 41, 4tr",Vasastan,2023-11-08,3650000,3275000.0,110606,Lägenhet,2.0,33,Nej,4 av 4,True,1892.0,2335,0,Patrik Lundberg,Widerlöv Kungsholmen
+1557,Vibblabyvägen 4,"Jakobsberg, Järfälla kommun",2023-10-24,1695000,1695000.0,21456,Lägenhet,3.0,79,Nej,1 av 6,True,1968.0,5909,3600,Karmo Barkarmo,Länsförsäkringar Fastighetsförmedling Järfälla
+2133,Landåvägen 75,"Jarlaberg, Nacka kommun",2023-10-18,3950000,3795000.0,54861,Lägenhet,3.0,72,Unknown,5 av 5,True,1989.0,5601,6167,Erik Ehrenpil,Fastighetsbyrån Nacka
+495,Golfbanevägen 5,"Danderyd, Danderyds kommun",2023-11-06,2750000,2895000.0,80882,Lägenhet,1.0,34,Ja,1,True,2020.0,2514,2640,Shervin Hashemi,Fastighetsbyrån Danderyd
+1684,Vendevägen 9D,"Djursholm, Danderyds kommun",2023-10-23,6250000,6595000.0,76220,Lägenhet,3.0,82,Ja,2 av 4,True,1993.0,6652,0,Anna Lindquist,Magnusson Mäkleri AB
+479,Målargränd 2,Sigtuna,2023-11-07,3650000,3950000.0,38421,Lägenhet,3.0,95,Unknown,4 av 4,True,2023.0,5732,8748,Helena Bohman,Mäklarhuset Sigtuna Märsta Rosersberg
+1420,Östermalmsgatan 29B,"Lärkstaden/Östermalm, Stockholms kommun",2023-10-26,11250000,11700000.0,112500,Lägenhet,4.0,100,Unknown,0,False,1928.0,4938,3800,Niklas Wendell,Eklund Stockholm New York
+1547,Ekholmsvägen 208,"Skärholmen, Stockholms kommun",2023-10-25,2800000,2590000.0,29787,Lägenhet,4.0,94,Ja,1 av 6,True,1968.0,4415,0,Hussein Ammouri,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+2201,Bergmossevägen 23,"Holmviksskogen, Värmdö kommun",2023-10-18,2775000,2600000.0,28906,Lägenhet,3.0,96,Ja,3 av 4,True,1992.0,6670,6000,Marcus Folmer,Länsförsäkringar Fastighetsförmedling Värmdö
+944,"Krångedevägen 7, 2tr","Hjorthagen, Stockholms kommun",2023-10-31,2850000,2795000.0,71250,Lägenhet,2.0,40,Nej,2 av 3,True,,3189,0,Julia Dragsten,Länsförsäkringar Fastighetsförmedling Stockholm - Östermalm
+1313,"Ringvägen 39, vån 1 av 3","Västerhaninge, Haninge kommun",2023-10-26,1100000,1095000.0,36667,Lägenhet,1.0,30,Ja,1 av 3,True,,2197,0,Andreas Stensåsen,Notar
+299,Filvägen 7,"Hökmossen/Telefonplan, Stockholms kommun",2023-11-08,2750000,2695000.0,55000,Lägenhet,2.0,50,Ja,2 av 3,True,,3428,5700,Elie Sabbagh,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+2114,Tellusborgsvägen 44,"Midsommarkransen, Stockholms kommun",2023-10-18,4658000,4750000.0,80310,Lägenhet,2.0,58,Ja,4 av 4,True,2023.0,4076,9530,Therese Jarmunger,Erik Olsson Fastighetsförmedling
+332,Puckgränd 15,"Västertorp, Stockholms kommun",2023-11-08,2410000,2395000.0,42655,Lägenhet,2.0,565,Ja,2 av 2,True,1950.0,3261,6600,Christofer Svensson,Fastighetsbyrån Hägersten/Älvsjö
+679,"Bryggvägen 10, vån 4","Gröndal, Stockholms kommun",2023-11-03,3075000,2695000.0,87857,Lägenhet,1.0,35,Ja,4,True,2018.0,2277,0,Johanna Dahlerus,Notar
+464,Parkvägen 2,"Råsunda, Solna kommun",2023-11-07,3700000,3750000.0,68519,Lägenhet,2.0,54,Nej,5 av 17,True,2022.0,3715,0,Joe Maatouk,Bronze Fastighetsförmedling AB
+1934,Kanalvägen 2B,"Åkersberga Centralt, Österåkers kommun",2023-10-19,2400000,2195000.0,38710,Lägenhet,2.0,62,Ja,4 av 4,True,2015.0,3798,7200,Isabel Abelin,HusmanHagberg Österåker
+1742,Harplingegränd 110 vån 3/3,"Östbergahöjden, Stockholms kommun",2023-10-22,3375000,2995000.0,35526,Lägenhet,4.0,95,Ja,3 av 3,True,1968.0,5526,6000,Andy Shabo,Svensk Fastighetsförmedling Älvsjö
+220,Franzéngatan 74,Hornsbergs Strand,2023-11-09,7650000,7595000.0,83152,Lägenhet,3.0,92,Ja,3,True,2012.0,4371,9540,Johannah Adler,Diplomat Fastighetmäkleri
+1856,"Mittfältsgatan 3, plan 4","Råsunda, Solna kommun",2023-10-20,4000000,3895000.0,57143,Lägenhet,2.0,70,Ja,4 av 8,True,2021.0,4493,3600,Johanna Ekberg,Svensk Fastighetsförmedling Solna
+1378,Björnstigen 119,"Bergshamra, Solna kommun",2023-10-26,3900000,3595000.0,56522,Lägenhet,3.0,69,Ja,2,True,1959.0,2717,9240,Julia Laitinen,Erik Olsson Fastighetsförmedling
+2294,"Karlsborgsvägen 5, 3 tr","Hammarbyhöjden, Stockholms kommun",2023-10-17,3185000,2650000.0,77683,Lägenhet,2.0,41,Ja,3 av 3,True,1943.0,2740,16104,Javiera Robertsson,Bjurfors Hammarby/Skarpnäck & Farsta
+2395,Turingevägen 41A,"Örby, Stockholms kommun",2023-10-15,1800000,1995000.0,38298,Lägenhet,1.0,47,Unknown,3 av 3,True,,2549,0,Oscar Bergman,SkandiaMäklarna Älvsjö/Årsta
+84,"Nybohovsbacken 67, 8tr","Liljeholmen, Stockholms kommun",2023-11-10,3575000,3195000.0,60593,Lägenhet,2.0,59,Ja,Unknown,False,1960.0,2211,0,Nicklas Talvitie,Notar
+1896,Brogatan 18,Brotorp,2023-10-20,4940000,4595000.0,52000,Lägenhet,4.0,95,Ja,3 av 4,True,2009.0,5382,0,Martin Eriksson,Länsförsäkringar Fastighetsförmedling Solna
+1879,Magasinsgången 7,"Kvarnholmen, Nacka kommun",2023-10-20,6350000,6395000.0,93382,Lägenhet,2.0,68,Ja,Unknown,False,2017.0,4925,12170,Theo Karantonio,Erik Olsson Fastighetsförmedling
+1976,Trädgårdsvägen 6,"Runby, Upplands Väsby kommun",2023-10-19,2250000,2350000.0,30405,Lägenhet,3.0,74,Ja,2 av 3,True,1966.0,2539,7092,Anna Johansson,Länsförsäkringar Fastighetsförmedling Upplands Väsby
+109,"Centralvägen 21, våning 4+5","Solna Centrum, Solna kommun",2023-11-10,6080000,5995000.0,45373,Lägenhet,4.0,134,Ja,Unknown,False,1952.0,4772,0,Nina Shisha,Länsförsäkringar Fastighetsförmedling Solna
+856,"Södra Agnegatan 26A, 2 tr ög","Kungsholmen, Stockholms kommun",2023-11-01,6150000,5995000.0,111818,Lägenhet,2.0,55,Ja,2 av 6,True,1884.0,2491,8400,Viktor Moberg,Nestor Fastighetsmäkleri
+782,Postiljonsvägen 12,Svedmyra,2023-11-02,3450000,3295000.0,49286,Lägenhet,3.0,70,Ja,3 av 3,True,1948.0,4963,8340,Jessica Winter,Mäklarhuset Enskede
+290,Hälsovägen 2A,"Södertälje Södra, Södertälje kommun",2023-11-08,1820000,1695000.0,33091,Lägenhet,2.0,55,Ja,3 av 3,True,1947.0,3419,7200,Paulina Uebel,Fastighetsbyrån Södertälje
+2004,"Metronomgatan 3, vån 3",Telefonplan,2023-10-19,4000000,3995000.0,64516,Lägenhet,2.0,62,Ja,Unknown,False,2009.0,3387,0,Jonas Lindström,Notar
+1242,Hornsgatan 151 3TR,"Södermalm, Stockholms kommun",2023-10-27,2785000,2695000.0,99464,Lägenhet,1.0,28,Nej,3 av 6,True,1931.0,1844,5880,Didrik Peterson,Erik Olsson Fastighetsförmedling
+1938,Lundmansgatan 1B,Norrtälje stad,2023-10-19,1600000,1495000.0,27119,Lägenhet,2.0,59,Ja,1 av 3,True,1953.0,2783,6060,Lucas Eriksson,Länsförsäkringar Fastighetsförmedling Norrtälje
+831,Hovslagarevägen 19,"Edsängen, Sollentuna kommun",2023-11-01,2750000,2695000.0,40441,Lägenhet,3.0,68,Ja,4 av 6,True,2018.0,4363,4488,Alexander Torssell,Länsförsäkringar Fastighetsförmedling Sollentuna
+410,Jämtlandsgatan 107 (Våning 2),"Vällingby Parkstad / Råcksta, Stockholms kommun",2023-11-07,2850000,2795000.0,43846,Lägenhet,3.0,65,Ja,2,True,2019.0,3774,6264,Alexander Elezov,Fastighetsbyrån Hässelby/Vällingby/Spånga
+1195,Torphagsvägen 8,"Ekhagen, Stockholms kommun",2023-10-27,2900000,2695000.0,80556,Lägenhet,2.0,36,Nej,1 av 4,True,1935.0,2051,8350,Fredrik Flodin,Alicia Edelman Fastighetsmäkleri
+1814,Ringvägen 33,"Södermalm, Stockholms kommun",2023-10-20,3250000,3250000.0,79268,Lägenhet,1.0,41,Ja,1 av 6,True,1988.0,2221,9360,Frida Urciuoli,Erik Olsson Fastighetsförmedling
+2382,"Tulegatan 42, 5 tr","Vasastan, Stockholms kommun",2023-10-15,9975000,9975000.0,94104,Lägenhet,4.0,106,Ja,5 av 7,True,1973.0,4776,10872,Sofia Wetterberg,Widerlöv Vasastan/Östermalm
+611,Gävlegatan 3,Vasastan,2023-11-03,5825000,5695000.0,102193,Lägenhet,2.0,57,Unknown,1,True,1926.0,2568,0,Joseph Rashid,Fastighetsbyrån Stockholm - Vasastan
+212,"Tobaksspinnargatan 6, 3tr","Högalid, Stockholms kommun",2023-11-09,3270000,2950000.0,99091,Lägenhet,1.0,33,Unknown,3,True,1930.0,2093,3820,Pontus Sjödin,Fastighetsbyrån Stockholm - Södermalm
+744,Jämtlandsgatan 70,"Vällingby  Centrum, Stockholms kommun",2023-11-02,3050000,2995000.0,35465,Lägenhet,4.0,86,Ja,1 av 3,True,1952.0,6029,5100,Micaela Rebel,SkandiaMäklarna Vällingby/Hässelby/Kista
+2385,Hägerneholmsvägen 7A,"Hägerneholm, Täby kommun",2023-10-15,1550000,1495000.0,53448,Lägenhet,1.0,29,Ja,2 av 5,True,2021.0,2495,4200,Anton Sandberg,MOHV Täby
+650,Stenkvistavägen 10,"Högdalen, Stockholms kommun",2023-11-03,2550000,2250000.0,56044,Lägenhet,2.0,455,Ja,8 av 12,True,2018.0,3393,5400,Dennis Sivertsson,Länsförsäkringar Fastighetsförmedling Årsta-Bandhagen
+756,Styrmansgatan 43A,"Östermalm, Stockholms kommun",2023-11-02,7900000,8000000.0,131667,Lägenhet,2.0,60,Ja,2 av 3,True,1889.0,2056,16500,Kasper Geerd,SJÖMAN\FRISK
+2391,Diamantgången 111,"Öringe, Tyresö kommun",2023-10-15,1910000,1695000.0,28507,Lägenhet,2.0,67,Unknown,Unknown,False,1982.0,4375,0,Michell Balok,SkandiaMäklarna Tyresö/Älta
+1041,Lammholmsbacken 266,"Vårby, Huddinge kommun",2023-10-30,1550000,1595000.0,24219,Lägenhet,2.0,64,Unknown,2 av 2,True,1969.0,4014,1668,Jacob Jergos,Fastighetsbyrån Huddinge
+1898,Patentgatan 9,"Lilla Essingen, Stockholms kommun",2023-10-20,3850000,4495000.0,72642,Lägenhet,2.0,53,Nej,1 av 6,True,2006.0,3883,7500,Leif Östlund,Erik Olsson Fastighetsförmedling
+1688,Emanuel Birkes väg 6,"Salem, Salems kommun",2023-10-23,800000,900000.0,18182,Lägenhet,1.0,44,Ja,1 av 4,True,1967.0,3913,5000,Ann Sjöblom,Fastighetsbyrån Salem
+18,Esplanaden 16 A,"Grossgärdet, Norrtälje kommun",2023-11-11,1000000,1150000.0,29851,Lägenhet,1.0,335,Unknown,1 av 3,True,,1467,4296,Jacob Lund,Fastighetsbyrån Norrtälje
+788,"Björnsonsgatan 142, 3,5 tr","Bromma / Blackeberg, Stockholms kommun",2023-11-01,2000000,1750000.0,64516,Lägenhet,1.0,31,Ja,3,True,1952.0,1713,13860,Emrik Adolfsson,Svenska Mäklarhuset Bromma
+1362,Söderberga allé 56,"Söderberga Allé, Stockholms kommun",2023-10-26,2700000,2495000.0,36486,Lägenhet,3.0,74,Unknown,1 av 4,True,1995.0,4278,2484,Malin Ivinger,Fastighetsbyrån Bromma
+2071,Fiskarvägen 20C,"Herrviksnäs, Värmdö kommun",2023-10-18,2650000,2795000.0,55208,Lägenhet,2.0,48,Nej,Unknown,False,,3511,17592,Peter Sundqvist,Länsförsäkringar Fastighetsförmedling Värmdö
+999,"Ekholmsvägen 250A, vån 5/5","Skärholmen, Stockholms kommun",2023-10-31,1995000,1995000.0,23892,Lägenhet,3.0,835,Ja,5 av 5,True,,6354,4800,Elena Gomez,BOSTHLM
+742,"Ågesta Broväg 36, 1 tr","Farsta Strand, Stockholms kommun",2023-11-02,2790000,2695000.0,40144,Lägenhet,3.0,695,Nej,1,True,20082009.0,4971,6000,Kim Ekholm,Fastighetsbyrån Farsta/ Högdalen/ Skogås
+1874,Birger jarlsgatan 107,"Vasastan, Stockholms kommun",2023-10-20,9350000,9495000.0,110000,Lägenhet,3.0,85,Ja,2 av 5,True,1884.0,4268,13200,Veronica Andersson,Behrer & Partners
+76,"Anders Reimers väg 17, 2 tr","Reimersholme, Stockholms kommun",2023-11-10,3900000,4950000.0,96296,Lägenhet,2.0,405,Nej,2 av 7,True,1942.0,2959,5880,Helen Larsson,Erik Olsson Fastighetsförmedling
+450,"Lidnersgatan 5, 2tr",Kungsholmen,2023-11-07,6970000,6975000.0,86049,Lägenhet,3.0,81,Ja,2 av 6,True,1932.0,4249,0,Nina Larsson,Mäklarhuset Stockholm Innerstan
+1311,Bergshöjden 46,"Hallonbergen, Sundbybergs kommun",2023-10-26,1495000,1495000.0,21730,Lägenhet,2.0,688,Ja,4 av 5,True,1971.0,4322,0,Jessica Toubal,HusmanHagberg Sundbyberg
+2073,"Sjöbjörnsvägen 20, 2/2tr","Gröndal, Stockholms kommun",2023-10-18,4150000,4395000.0,71552,Lägenhet,2.0,58,Ja,Unknown,False,1946.0,4015,0,Nicklas Talvitie,Notar
+1413,Näckrosvägen 41,"Näckrosen, Solna kommun",2023-10-26,2120000,1995000.0,78519,Lägenhet,1.0,27,Nej,2,True,1945.0,1739,0,Tim Enström,Svenska Mäklarhuset Solna
+861,Västmannagatan 24,"Vasastan, Stockholms kommun",2023-11-01,4300000,4000000.0,113158,Lägenhet,2.0,38,Nej,4 av 5,True,1898.0,1256,4400,Anita Ek,Ek & Co Fastighetsförmedling AB
+168,"Flintlåsvägen 15, 1tr","Edsberg, Sollentuna kommun",2023-11-09,2250000,2195000.0,29032,Lägenhet,3.0,775,Ja,1 av 2,True,1963.0,4359,5400,Cherry Lindström,Svenska Mäklarhuset Sollentuna
+1992,Högbyvägen 258,"Viksjö, Järfälla kommun",2023-10-19,2375000,2357500.0,30063,Lägenhet,3.0,79,Ja,2 av 2,True,1999.0,5418,0,Elina Ottosson,SkandiaMäklarna Järfälla
+605,"Sköntorpsvägen 104, 3/3tr","Årsta, Stockholms kommun",2023-11-03,4830000,3995000.0,74308,Lägenhet,3.0,65,Ja,3 av 3,True,1945.0,3465,8888,Robert Kassar,Fastighetsbyrån Årsta
+1225,Helgagatan 36B,"Södermalm, Stockholms kommun",2023-10-27,3525000,3295000.0,91558,Lägenhet,1.0,385,Unknown,2,True,1926.0,2335,0,Jonna Sommarhed,Svensk Fastighetsförmedling Sthlm Södermalm
+2060,"Gröndalsvägen 177, 5/5tr","Gröndal, Stockholms kommun",2023-10-18,5795000,5795000.0,69819,Lägenhet,3.0,83,Ja,Unknown,False,1982.0,4293,0,Nicklas Talvitie,Notar
+219,Sikvägen 15,"Centrala Tyresö, Tyresö kommun",2023-11-09,3300000,3195000.0,41250,Lägenhet,3.0,80,Unknown,5 av 8,True,1963.0,4545,0,Michell Balok,SkandiaMäklarna Tyresö/Älta
+613,Arkitektvägen 83,"Abrahamsberg, Stockholms kommun",2023-11-03,4615000,3995000.0,74435,Lägenhet,3.0,62,Ja,2 av 3,True,1938.0,4117,7612,Daniel Fredricson,MOHV Bromma
+1385,"Johan Skyttes Väg 392,","Långbro Park, Stockholms kommun",2023-10-26,7000000,6995000.0,51095,Lägenhet,5.0,137,Ja,4 av 4,True,2013.0,8361,10200,Philip von Segebaden,Mäklarhuset Älvsjö/Hägersten
+1535,Jungfrudansen 44,"Huvudsta, Solna kommun",2023-10-25,3200000,2995000.0,54237,Lägenhet,3.0,59,Nej,Unknown,False,1971.0,2863,0,Jannis Nikopoulos,Länsförsäkringar Fastighetsförmedling Solna
+303,Kansligränd 16,"Kvarnbergsplan, Huddinge kommun",2023-11-08,1825000,1995000.0,39674,Lägenhet,2.0,46,Nej,5,True,2016.0,2875,8100,Magnus Karlsson,Bjurfors Huddinge/Älvsjö
+1572,Fredsgatan 19,"Centrala Sundbyberg, Sundbybergs kommun",2023-10-24,3500000,3395000.0,62500,Lägenhet,2.0,56,Ja,2 av 4,True,1925.0,1809,0,Sebastian Scherdin,HusmanHagberg Sundbyberg
+1249,Ängsnäsvägen 11A,"Centrala Huddinge, Huddinge kommun",2023-10-27,3175000,3175000.0,43493,Lägenhet,4.0,73,Ja,2 av 3,True,1962.0,4612,4800,Ulrika Högberg,HusmanHagberg Huddinge
+988,"Sankt Paulsgatan 3, 3tr.",Södermalm,2023-10-31,3400000,3395000.0,106250,Lägenhet,1.0,32,Ja,3 av 5,True,1938.0,1350,6549,Christoffer Gatara,HusmanHagberg Södermalm/Gamla Stan
+1558,"Russinvägen 2, vån 7/7","Hökarängen, Stockholms kommun",2023-10-24,2950000,2495000.0,50000,Lägenhet,2.0,59,Ja,7 av 7,True,1961.0,3352,2680,Daniel Sedman,Fastighetsbyrån Farsta/ Högdalen/ Skogås
+2104,Drachmannsgatan 16,Bromma,2023-10-18,2130000,1990000.0,39444,Lägenhet,2.0,54,Ja,1 av 3,True,1951.0,3491,6000,Sara Sällström,Notar
+1851,Edinsvägen 12,"Ektorp, Nacka kommun",2023-10-20,2375000,1995000.0,40948,Lägenhet,2.0,58,Ja,9 av 9,True,1961.0,4716,5820,Maxine Mazy,Svensk Fastighetsförmedling Nacka
+913,Paradisvägen 12,"Prästgårdsmarken/njursta, Upplands Väsby kommun",2023-10-31,1500000,1595000.0,28302,Lägenhet,3.0,53,Unknown,1 av 2,True,1985.0,4622,1200,Orhan Aydin,Fastighetsbyrån Upplands Väsby
+800,Lövholmsvägen 74,"Gröndal, Stockholms kommun",2023-11-01,7050000,7195000.0,74211,Lägenhet,4.0,95,Ja,3 av 4,True,2017.0,5184,15872,Valencia Can,Fastighetsbyrån Hägersten/Älvsjö
+1110,Gävlegatan 26,Vasastan,2023-10-29,4750000,4795000.0,107955,Lägenhet,2.0,44,Ja,Unknown,False,2017.0,2200,0,Ronni Mleczkovicz,Bergets Ro Fastighetsförmedling
+1880,"Safirgränd 47, vån 3",Solberga,2023-10-20,3925000,3695000.0,48457,Lägenhet,3.0,81,Ja,3 av 3,True,2006.0,5259,6000,Josefine  Granli,BOSTHLM
+368,"Tellusborgsvägen 81, vån 1",Telefonplan,2023-11-08,4300000,4250000.0,67717,Lägenhet,2.0,635,Ja,1 av 4,True,2011.0,3532,0,Jonas Lindström,Notar
+231,Bysistorget 8,"Södermalm Maria, Stockholms kommun",2023-11-09,7550000,6995000.0,95570,Lägenhet,3.0,79,Nej,5 av 7,True,1931.0,1388,0,Jenny Damgren,Bjurfors Södermalm
+1845,"Gästrikegatan 20, 4tr",Vasastan,2023-10-20,7700000,7795000.0,118462,Lägenhet,3.0,65,Unknown,4 av 5,True,1904.0,3936,0,Otilia Håkansson,Fastighetsbyrån Stockholm - Vasastan
+135,Essinge Brogata 22,"Lilla Essingen, Stockholms kommun",2023-11-10,3050000,2995000.0,67778,Lägenhet,2.0,45,Ja,2 av 5,True,1939.0,3309,4780,Frida Selling,Erik Olsson Fastighetsförmedling
+25,Meteorvägen 20,"Grindtorp, Täby kommun",2023-11-11,2550000,2495000.0,31481,Lägenhet,3.0,81,Unknown,1 av 4,True,1961.0,4401,5880,Jonas Wallin,Svenska Mäklargruppen
+1170,Vintergatan 2D,"Storskogen, Sundbybergs kommun",2023-10-27,3400000,3195000.0,73913,Lägenhet,2.0,46,Ja,3 av 6,True,2019.0,3482,0,Safa Kvist,Svenska Mäklarhuset Sundbyberg
+1279,Bildhuggarvägen 25,"Gullmarsplan/Globen, Stockholms kommun",2023-10-27,2995000,2795000.0,66556,Lägenhet,2.0,45,Ja,2 av 3,True,1945.0,2854,0,Sanna  Pickelner,Svenska Mäklarhuset Johanneshov
+889,"John Ericssonsgatan 7, 4 tr","Kungsholmen, Stockholms kommun",2023-11-01,4250000,3995000.0,111842,Lägenhet,2.0,38,Unknown,4 av 6,True,1934.0,2142,4800,Eric Eiderbrant,New Nest
+2092,Utövägen 9,"Västra Orminge, Nacka kommun",2023-10-18,1995000,1995000.0,21337,Lägenhet,3.0,935,Ja,1 av 3,True,1967.0,6193,3600,Jesper Lindgren,Widerlöv Nacka/Värmdö
+973,Karlslundsvägen 30,"Barkarbystaden, Järfälla kommun",2023-10-31,3400000,3450000.0,40476,Lägenhet,4.0,84,Unknown,Unknown,False,2019.0,4845,0,Nadim Waheid,SkandiaMäklarna Järfälla
+192,"Göran Perssons Väg 17, vån 1","Huvudsta, Solna kommun",2023-11-09,3950000,3995000.0,47590,Lägenhet,3.0,83,Ja,1 av 3,True,1969.0,4854,0,Jonathan Rappel,Länsförsäkringar Fastighetsförmedling Solna
+289,Karlsviksgatan 15,"Nedre Kungsholmen, Stockholms kommun",2023-11-08,6380000,5995000.0,106333,Lägenhet,2.0,60,Ja,5 av 5,True,1898.0,3921,7650,Jonna Sarstedt,Fastighetsbyrån Stockholm - Kungsholmen
+786,Månadsvägen 66,"Jakobsberg, Järfälla kommun",2023-11-01,1250000,1195000.0,39063,Lägenhet,1.0,32,Nej,4,True,1960.0,2631,4560,Kevin Norai,Länsförsäkringar Fastighetsförmedling Järfälla
+1449,"Enköpingsvägen 9C, Vån 2","Norra Frösunda/Ritorp, Solna kommun",2023-10-25,5100000,4995000.0,52577,Lägenhet,3.0,97,Nej,2 av 3,True,1911.0,6249,4680,Aleidon Adam,Länsförsäkringar Fastighetsförmedling Solna
+1366,Sickla Strand 47,"Sickla Strand, Nacka kommun",2023-10-26,3600000,3795000.0,63158,Lägenhet,2.0,57,Unknown,1,False,,2853,6660,Staffan John,Svensk Fastighetsförmedling Nacka
+1729,"Hunnebergsvägen 7, 3/3tr",Bromma,2023-10-23,2700000,2595000.0,75000,Lägenhet,2.0,36,Ja,3 av 3,False,1935.0,2684,6000,Gustav Strand,BOSTHLM Bromma
+1085,Allhelgonagatan 7,"Södermalm, Stockholms kommun",2023-10-30,3425000,2995000.0,97857,Lägenhet,2.0,35,Nej,2 av 3,True,1936.0,1539,5880,Mikael Rantala,Erik Olsson Fastighetsförmedling
+736,"Gaffelseglet 23, vån 8",Haninge,2023-11-02,2400000,2650000.0,51064,Lägenhet,2.0,47,Ja,8 av 8,True,2022.0,3395,8604,Erika Asp Mutschler,Diplomat Fastighetmäkleri
+873,Finntorpsvägen 3,"Finntorp, Nacka kommun",2023-11-01,1500000,1595000.0,83333,Lägenhet,1.0,18,Nej,4 av 4,True,1951.0,1494,0,Andrea Enström,Notar
+128,Enskedevägen 162,"Svedmyra, Stockholms kommun",2023-11-10,3200000,3250000.0,52459,Lägenhet,2.0,61,Nej,1 av 4,True,2018.0,3990,7800,Jeanette Giörtz,Bjurfors Enskede
+2009,Ringvägen 8,"Centrum, Upplands",2023-10-19,1350000,1295000.0,33750,Lägenhet,1.0,40,Unknown,3 av 7,True,1964.0,2982,3000,Daniel Hedgren,Mäklarhuset Kungsängen
+1993,Lädersättravägen 109,"Kallhäll, Järfälla kommun",2023-10-19,1675000,1945000.0,20679,Lägenhet,3.0,81,Ja,3 av 8,True,1967.0,6072,6048,Ahmed Waad,Fastighetsbyrån Järfälla
+677,"Brännkyrkagatan 95B, 5 tr","Södermalm, Stockholms kommun",2023-11-03,6400000,5695000.0,112281,Lägenhet,2.0,57,Ja,5 av 6,True,1906.0,2909,8400,Peter Öhman,Länsförsäkringar Fastighetsförmedling Stockholm - Södermalm
+1494,"Lindhagensgatan 106, 5tr",Västra Kungsholmen,2023-10-25,5875000,5795000.0,78333,Lägenhet,3.0,75,Ja,5 av 8,True,2012.0,4022,10560,Lisa Kalin,Diplomat Fastighetmäkleri
+233,"Katarina Bangata 48, 2 tr","Södermalm Katarina, Stockholms kommun",2023-11-09,5630000,5250000.0,99646,Lägenhet,2.0,565,Ja,2 av 6,True,1905.0,3051,6000,Gunnar Englund,Södermäklarna
+810,Flyghamnsvägen 26,"Viggbyholm, Täby kommun",2023-11-01,2100000,2150000.0,45161,Lägenhet,2.0,465,Nej,2 av 6,True,1967.0,2817,0,Rikard Sölling,Svenska Mäklarhuset Täby
+307,"Sankt Eriksgatan 61A, 4 tr","Kungsholmen, Stockholms kommun",2023-11-08,3970000,3695000.0,120303,Lägenhet,1.0,33,Ja,4 av 5,True,1905.0,1324,5400,Niklas Jonasson,Bjurfors Kungsholmen
+508,Tuvvägen 21,"Centrala Handen, Haninge kommun",2023-11-06,2150000,2150000.0,33077,Lägenhet,3.0,65,Ja,4 av 5,True,1984.0,4595,6000,Solomon Tumizghi,MOHV Haninge
+1629,Primusgatan 91,"Lilla Essingen, Stockholms kommun",2023-10-24,8100000,8495000.0,82653,Lägenhet,4.0,98,Ja,3 av 6,True,2006.0,7301,9000,Leif Östlund,Erik Olsson Fastighetsförmedling
+383,"Lidnersplan 16, 4 tr",Kungsholmen,2023-11-08,3360000,2995000.0,98824,Lägenhet,1.0,34,Ja,4 av 5,True,1937.0,1923,0,Lena Svartström,Mäklarhuset Stockholm Innerstan
+2057,Pilgatan 21,"Rådhusparken, Stockholms kommun",2023-10-18,5760000,4795000.0,120000,Lägenhet,2.0,48,Ja,2 av 5,True,1929.0,2768,0,Nicole Åman,Fastighetsbyrån Stockholm - Kungsholmen
+942,Gullmarsvägen 2,"Gullmarsplan, Stockholms kommun",2023-10-31,5450000,5895000.0,59239,Lägenhet,5.0,92,Ja,1 av 7,True,1946.0,4975,7200,Alfred Gunnarsson,Länsförsäkringar Fastighetsförmedling Stockholm - Enskede
+2222,"Sankt Eriksgatan 120/Dalagatan 55, 4 tr","Vasastan, Stockholms kommun",2023-10-17,4050000,3795000.0,101250,Lägenhet,1.0,40,Ja,4 av 5,True,1924.0,3230,1188,Joseph Rashid,Fastighetsbyrån Stockholm - Vasastan
+507,Sickla Kanalgata 89,"Hammarby Sjöstad, Stockholms kommun",2023-11-06,3550000,3495000.0,73958,Lägenhet,2.0,48,Nej,Unknown,False,2001.0,3768,0,Ilirjana Breznica,Notar
+177,Håsjögränd 2 (Våning 5),"Vällingby Parkstad / Råcksta, Stockholms kommun",2023-11-09,2550000,2395000.0,30000,Lägenhet,4.0,85,Ja,5,True,1958.0,5736,4688,Jimmy Solkarin,Fastighetsbyrån Hässelby/Vällingby/Spånga
+426,Vulcanusgatan 9,"Vasastan, Stockholms kommun",2023-11-07,2800000,2995000.0,100000,Lägenhet,1.0,28,Nej,1 av 6,True,1927.0,1727,4800,William Lindvall,Alicia Edelman Vasastan/Norrmalm
+1580,Ekilla Gårdsväg 40,Märsta,2023-10-24,1250000,1295000.0,20161,Lägenhet,2.0,62,Ja,2 av 3,True,1972.0,4039,6000,Nils Lagerlöf,HusmanHagberg Sigtuna
+694,Sikvägen 51,"Centrala Tyresö, Tyresö kommun",2023-11-02,2495000,2495000.0,31188,Lägenhet,3.0,80,Ja,2 av 7,True,1961.0,5080,2496,Ankie Björk,Länsförsäkringar Fastighetsförmedling Tyresö
+2126,Tre kronors väg 37,"Kvarnholmen, Nacka kommun",2023-10-18,3675000,3850000.0,69340,Lägenhet,2.0,53,Ja,2 av 4,True,2017.0,4027,6000,Caroline Hazelius,SkandiaMäklarna Nacka
+184,Blåklockevägen 9,"Sollentuna Tureberg, Sollentuna kommun",2023-11-09,2260000,2350000.0,47083,Lägenhet,2.0,48,Ja,4 av 7,True,2016.0,3120,0,Alexander  Safar,Notar
+1784,Drottning Kristinas Esplanad 55,"Ulriksdal, Solna kommun",2023-10-21,6100000,6195000.0,55455,Lägenhet,5.0,110,Ja,5 av 6,True,,6482,10400,Filip Söderlindh,Urban by ESNY
+2167,Ursviksvägen 17,"Centrala Sundbyberg, Sundbybergs kommun",2023-10-18,3800000,3695000.0,69725,Lägenhet,2.0,545,Ja,3 av 6,True,1995.0,3570,0,Gabriel Bilir,Bergets Ro Fastighetsförmedling
+1808,Vintergatan 2 D,"Centrala Sundbyberg, Sundbybergs kommun",2023-10-20,3300000,3095000.0,71739,Lägenhet,2.0,46,Ja,6 av 7,True,2019.0,3482,1800,Victor Lasses,Fastighetsbyrån Sundbyberg
+2257,Övre Villagatan 28A,"Centrala Södertälje, Södertälje kommun",2023-10-17,1700000,1695000.0,22368,Lägenhet,2.0,76,Unknown,4 av 4,True,,4799,1188,Ida Cavilin,Svensk Fastighetsförmedling Södertälje
+298,Alströmergatan 32E,"Kungsholmen, Stockholms kommun",2023-11-08,2090000,1895000.0,104500,Lägenhet,1.0,20,Nej,0,True,1928.0,1232,3000,William Bucaro,Länsförsäkringar Fastighetsförmedling Stockholm - Kungsholmen
+1036,"Fastlagsvägen 72, 1tr","Midsommarkransen, Stockholms kommun",2023-10-30,2525000,2495000.0,61585,Lägenhet,2.0,41,Ja,1 av 3,True,1943.0,2819,0,Jessica Alvå,Notar
+1000,"Ekholmsvägen 250A, vån 5/5","Skärholmen, Stockholms kommun",2023-10-31,1995000,1995000.0,23892,Lägenhet,3.0,835,Ja,5 av 5,True,,6354,4800,Elena Gomez,BOSTHLM
+621,Segelflygsgatan 37,"Skarpnäck, Stockholms kommun",2023-11-03,2730000,2295000.0,35226,Lägenhet,3.0,775,Ja,2 av 2,True,1985.0,5503,7324,Henrik Ivansson,Fastighetsbyrån Enskede
+2130,"Hagaesplanaden 61, vån 4",Vasastan,2023-10-18,2895000,2895000.0,91905,Lägenhet,1.0,315,Ja,4 av 11,True,2022.0,2542,2748,Andreas Ångström,Fastighetsbyrån Stockholm - Vasastan
+2319,Granbacken 22,Bromma,2023-10-16,2500000,2350000.0,46296,Lägenhet,2.0,54,Ja,2 av 3,True,1952.0,3700,5856,Julia Hast,Notar
+581,Wilhelm Kåges gata 100,"Porslinskvarteren, Värmdö kommun",2023-11-04,1950000,2000000.0,55714,Lägenhet,1.0,35,Ja,1 av 3,True,2022.0,2678,3000,Morgan Flodman,Widerlöv Nacka/Värmdö
+1966,Yttersta tvärgränd 4,"Södermalm Högalid, Stockholms kommun",2023-10-19,13200000,12500000.0,146667,Lägenhet,4.0,90,Nej,Unknown,False,1985.0,4502,11388,Adde Duna,Bjurfors Södermalm
+178,Soltorpsvägen 18B,"Danderyd Klingsta, Danderyds kommun",2023-11-09,1700000,1795000.0,62963,Lägenhet,1.0,27,Unknown,2 av 2,True,1961.0,2254,0,Petter Lindahl,Fastighetsbyrån Danderyd
+2174,"Ekfatsgatan 1, 5 tr","Liljeholmskajen, Stockholms kommun",2023-10-18,4200000,3995000.0,76364,Lägenhet,2.0,55,Ja,5,True,2020.0,3137,9900,Gabriella Gomez,Bjurfors Liljeholmen Hägersten
+324,Gransätragränd 9,"Sätra, Stockholms kommun",2023-11-08,2940000,2895000.0,31277,Lägenhet,4.0,94,Ja,1 av 2,True,1963.0,5858,19438,Enkidu Afram,Fastighetsbyrån Hägersten/Älvsjö
+565,"Frejgatan 25, 3tr.","Vasastan, Stockholms kommun",2023-11-05,6800000,6995000.0,115254,Lägenhet,2.0,59,Ja,3,True,1903.0,3170,7140,Alma Ewéo,SkandiaMäklarna Stockholm Vasastan
+1237,Rålambsvägen 70,"Fredhäll, Stockholms kommun",2023-10-27,2700000,2500000.0,87097,Lägenhet,1.0,31,Ja,1,True,1932.0,2556,0,Natalie Strand,Fastighetsbyrån Stockholm - Kungsholmen
+1340,"Roslagsgatan 42A, 3tr",Vasastan,2023-10-26,5750000,5950000.0,102679,Lägenhet,2.0,56,Ja,3,True,1885.0,3657,2400,Thérèse Lennefalk Löfgren,Fastighetsbyrån Stockholm - Vasastan
+564,Frövigatan 6,"Hagsätra, Stockholms kommun",2023-11-05,1900000,1850000.0,35849,Lägenhet,2.0,53,Unknown,1 av 3,True,1958.0,3050,6600,Oscar Bergman,SkandiaMäklarna Älvsjö/Årsta
+118,Sulitelmavägen 9,"Traneberg, Stockholms kommun",2023-11-10,2830000,2595000.0,78611,Lägenhet,2.0,36,Ja,2 av 3,True,1938.0,3094,5400,Emma Andersson Hejll,Mäklarhuset Bromma
+486,"Skarpbrunnavägen 19, 7tr+8tr",Botkyrka,2023-11-06,1000000,1595000.0,10929,Lägenhet,3.0,915,Ja,7,True,,8173,0,Aram Soma,Fastighetsbyrån Norra Botkyrka
+1292,Vitalisvägen 13,"Fredhäll, Stockholms kommun",2023-10-26,3350000,3250000.0,88158,Lägenhet,2.0,38,Unknown,3 av 4,True,1931.0,2126,1044,Laziz Khalmatov,Fastighetsbyrån Stockholm - Kungsholmen
+281,Bangatan 13,"Huvudsta, Solna kommun",2023-11-08,2995000,2695000.0,55463,Lägenhet,2.0,54,Ja,3,True,1985.0,2856,2304,Sofia Andersson,Notar
+1454,"Visirvägen 10, 3 tr","Segeltorp, Huddinge kommun",2023-10-25,3100000,3295000.0,39744,Lägenhet,3.0,78,Ja,2 av 3,True,2012.0,5203,9300,Caroz Hassan,Länsförsäkringar Fastighetsförmedling Huddinge
+528,"Jaktgatan 33, 2Tr","Norra Djurgårdsstaden, Stockholms kommun",2023-11-06,4395000,4395000.0,91563,Lägenhet,2.0,48,Ja,2 av 4,True,2016.0,4126,4920,Christoffer Perenkranz,Fastighetsbyrån Stockholm – Norra Djurgårdsstaden
+1646,Östgötagatan 55,Södermalm,2023-10-24,3750000,3995000.0,89286,Lägenhet,1.0,42,Nej,2 av 4,True,1929.0,1077,0,Filip Savic,Notar
+654,Rosenhöjdsvägen 28,"Södertälje, Södertälje kommun",2023-11-03,1850000,1895000.0,22024,Lägenhet,3.0,84,Unknown,6 av 6,True,,6136,0,Andreas Özgun,Svensk Fastighetsförmedling Södertälje
+834,Skarpövägen 27,"Boo, Nacka kommun",2023-11-01,1850000,1925000.0,30328,Lägenhet,3.0,61,Ja,1 av 3,True,1969.0,4707,6000,Magnus Willes,SkandiaMäklarna Nacka
+1361,Kruthornsvägen 15B,"Edsberg, Sollentuna kommun",2023-10-26,1650000,1695000.0,25000,Lägenhet,3.0,66,Unknown,2 av 3,True,1962.0,4305,0,Carl Vestersköld,Svensk Fastighetsförmedling Sollentuna
+2036,Ekholmsvägen 307,"Skanstull, Stockholms kommun",2023-10-19,2060000,2090000.0,38148,Lägenhet,2.0,54,Ja,2 av 4,True,2015.0,3517,0,Hussein Ammouri,Länsförsäkringar Fastighetsförmedling Stockholm - Hägersten
+1867,"Orrfjärdsgränd 24, 2 tr","Årsta, Stockholms kommun",2023-10-20,4800000,4675000.0,63576,Lägenhet,3.0,755,Ja,2 av 3,True,,5504,5400,Kimberly Pändel Lehn,BOSTHLM Årsta
+1461,Sollentunavägen 132E,"Sollentuna Centrum, Sollentuna kommun",2023-10-25,1950000,1995000.0,62903,Lägenhet,1.0,31,Ja,3,True,2021.0,2393,5400,Viktor Ekman,Bjurfors Sollentuna
+976,Fredrikslundsvägen 23,"Åkeslund, Stockholms kommun",2023-10-31,2700000,2495000.0,65854,Lägenhet,2.0,41,Ja,1 av 4,True,1940.0,2324,4800,Anton Bjärkenrud,Svensk Fastighetsförmedling Bromma
+618,"Honnörsgatan 22, 3 tr","Järvastaden, Solna kommun",2023-11-03,4350000,4295000.0,51786,Lägenhet,3.0,84,Ja,3 av 4,True,2009.0,4355,9000,Adam Bäckström,Svenska Mäklarhuset Solna
+1726,Flintlåsvägen 33,"Edsberg, Sollentuna kommun",2023-10-23,1200000,1300000.0,55814,Lägenhet,1.0,215,Nej,1 av 3,True,1963.0,1655,0,Alexander Lahdo,Länsförsäkringar Fastighetsförmedling Sollentuna
+366,"Klyvarvägen 5, 3tr","Gröndal, Stockholms kommun",2023-11-08,5795000,4495000.0,123298,Lägenhet,3.0,47,Ja,3 av 3,True,1930.0,3480,0,Signe Caroline Sjövall,Notar
+1221,Solskensvägen 15,"Tullinge, Botkyrka kommun",2023-10-27,2250000,2295000.0,23936,Lägenhet,4.0,94,Ja,1 av 7,True,1982.0,7080,6600,Alexander Lindeberg,Svensk Fastighetsförmedling Botkyrka/Salem
+2272,Lädersättravägen 105,"Kallhäll, Järfälla kommun",2023-10-17,1600000,1695000.0,25806,Lägenhet,2.0,62,Ja,7 av 8,True,1967.0,4798,0,Lise Frosth,Svensk Fastighetsförmedling Järfälla
+43,Storskärsgatan 4,"Östermalm / Nedre Gärdet, Stockholms kommun",2023-11-10,8750000,8750000.0,104167,Lägenhet,3.0,84,Ja,1,True,1932.0,4062,7235,Richard Petersson,Fastighetsbyrån Stockholm – Östermalm
+733,Textilgatan 25,"Hammarby Sjöstad, Stockholms kommun",2023-11-02,7040000,6995000.0,79101,Lägenhet,4.0,89,Ja,3 av 5,True,2014.0,4830,0,Carina Norrbom,SkandiaMäklarna Enskede
+2218,Gyllenborgsgatan 13,Kungsholmen,2023-10-17,2800000,2545000.0,107692,Lägenhet,1.0,26,Nej,1 av 4,True,1926.0,1524,0,Jakob Gustavsson,Länsförsäkringar Fastighetsförmedling Stockholm - Kungsholmen
+1832,"Västmannagatan 30, vån 5/5","Vasastan, Stockholms kommun",2023-10-20,13350000,12995000.0,133500,Lägenhet,3.0,100,Ja,5 av 5,True,1889.0,4934,14400,Gustav Larsson,Alicia Edelman Vasastan/Norrmalm
+203,"Pålsundsgatan 5, 2 tr","Högalid, Stockholms kommun",2023-11-09,9000000,7495000.0,112500,Lägenhet,3.0,80,Ja,2,True,1913.0,4251,11140,Sofia Ekander,Fastighetsbyrån Stockholm - Södermalm
+174,Mörbydalen 9,"Mörbyskogen, Danderyds kommun",2023-11-09,3050000,2995000.0,49433,Lägenhet,2.0,617,Unknown,1,True,1963.0,4041,10743,Shervin Hashemi,Fastighetsbyrån Danderyd
+420,"Bagarfruvägen 87, 3tr","Sköndal, Stockholms kommun",2023-11-07,2525000,1975000.0,42437,Lägenhet,2.0,595,Ja,3 av 4,True,2008.0,4126,7200,Per Knaust,Notar
+892,"Lidnersgatan 10A, 1,5 trappor",Kungsholmen,2023-11-01,3110000,2850000.0,94242,Lägenhet,2.0,33,Unknown,1,True,1938.0,2731,0,Nina Larsson,Mäklarhuset Stockholm Innerstan
