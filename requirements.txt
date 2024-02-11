@@ -11,4 +11,5 @@ catboost
 xgboost
 nbformat
 pyarrow
+dill
 #-e .
