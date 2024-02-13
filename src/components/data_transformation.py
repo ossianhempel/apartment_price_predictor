@@ -109,7 +109,7 @@ class DataTransformation:
             input_feature_test_df = test_df.drop(target_column, axis=1)
             target_feature_test_df = test_df[target_column]
 
-            logging.info("Fitting the preprocessor object")
+            logging.info("Applying preprocessor object to train and test data")
 
             input_feature_train_arr = preprocessor_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr = preprocessor_obj.transform(input_feature_test_df)
@@ -121,6 +121,8 @@ class DataTransformation:
             test_arr = np.c_[
                 input_feature_test_arr, np.array(target_feature_test_df)
             ]
+
+            logging.info("Saved preprocessing object")
 
             save_object(
                 file_path = self.data_transformation_config.preprocessor_obj_file_path,
