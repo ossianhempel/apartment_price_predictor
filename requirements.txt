@@ -12,4 +12,5 @@ xgboost
 nbformat
 pyarrow
 dill
+Flask
 #-e .
