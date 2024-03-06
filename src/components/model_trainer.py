@@ -2,6 +2,8 @@ import os
 import sys
 from dataclasses import dataclass
 
+from datetime import datetime
+
 from catboost import CatBoostRegressor
 from sklearn.ensemble import AdaBoostRegressor, RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
@@ -17,7 +19,15 @@ from src.utils import save_object, evaluate_model
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join("artifacts", "model.pkl")
+    #trained_model_file_path = os.path.join("artifacts", "model.pkl")
+    # Get the current date in the desired format
+    current_date: str = datetime.now().strftime("%Y_%m_%d")
+    # Define the base path for the model
+    base_path: str = "artifacts"
+    # Define the base model name
+    base_model_name: str = "model.pkl"
+    # Use f-string to construct the full path including the date
+    trained_model_file_path: str = os.path.join(base_path, f"model_{current_date}.pkl")
 
 class ModelTrainer:
     def __init__(self) -> None:
