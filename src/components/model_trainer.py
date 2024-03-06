@@ -103,9 +103,6 @@ class ModelTrainer:
                 param=params
                 )
             
-
-
-            
             best_model_name = max(model_report, key=model_report.get)  # This directly gives you the model name with the highest score
             best_model_score = model_report[best_model_name]  # Directly access the score using the model name
             best_model = models[best_model_name]  # Access the model instance using the model name
