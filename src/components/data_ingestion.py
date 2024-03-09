@@ -28,6 +28,11 @@ class DataIngestion:
             df = pd.read_csv("notebook/data/raw_scraped_apartment_sales_data.csv")
             logging.info("Read the dataset as dataframe")
 
+            if 'location' in df.columns:
+                df.rename(columns={'location': 'region'}, inplace=True)
+
+            logging.info(f"Columns in the dataset: {df.columns}")
+
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
 
             df.to_csv(self.ingestion_config.raw_data_path, index=False, header=True)

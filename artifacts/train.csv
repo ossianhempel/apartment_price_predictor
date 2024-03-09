@@ -1,4 +1,4 @@
-Unnamed: 0,address,location,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
+Unnamed: 0,address,region,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
 120,Fridensborgsvägen 58,"Järvastaden, Solna kommun",2023-11-10,3500000,3295000.0,58333,Lägenhet,3.0,60,Ja,1,True,2010.0,2825,0,Mike Chammas,Länsförsäkringar Fastighetsförmedling Solna
 283,"Årgångsgatan 1, 3 tr","Liljeholmskajen, Stockholms kommun",2023-11-08,5500000,5195000.0,76389,Lägenhet,3.0,72,Ja,3 av 23,True,2016.0,4553,10100,Kristoffer Pettersson,Svenska Mäklarhuset Hägersten/Liljeholmen
 1727,Hampvägen 13,"Hallunda, Botkyrka kommun",2023-10-23,2150000,2275000.0,23889,Lägenhet,4.0,90,Ja,6 av 7,True,1974.0,6258,0,Fadi Haddad,Länsförsäkringar Fastighetsförmedling Botkyrka/Salem

@@ -1,4 +1,4 @@
-Unnamed: 0,address,location,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
+Unnamed: 0,address,region,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
 2037,Helsingörsgatan 37,"Kista, Stockholms kommun",2023-10-19,2660000,2195000.0,26600,Lägenhet,4.0,100,Ja,2,True,1978.0,7349,6000,Per Lindblad,Fastighetsmäklarna
 1978,Roslagsgatan 15A,"Vasastan, Stockholms kommun",2023-10-19,8500000,8495000.0,116438,Lägenhet,3.0,73,Ja,1 av 5,True,1907.0,3821,7958,Marcus Torell,Magnusson Mäkleri AB
 855,"Wargentinsgatan 3, 2 tr","Kungsholmen, Stockholms kommun",2023-11-01,4575000,4250000.0,102809,Lägenhet,2.0,445,Ja,2 av 5,True,1933.0,2772,0,Lena Svartström,Mäklarhuset Stockholm Innerstan
