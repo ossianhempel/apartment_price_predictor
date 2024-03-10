@@ -7,7 +7,7 @@ from src.pipeline.predict_pipeline import PredictPipeline, CustomData
 
 app = Flask(__name__)
 
-# Route for a home page
+# Route for a prediction page
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -15,7 +15,7 @@ def index():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method == 'GET':
-        return render_template('home.html')
+        return render_template('prediction_form.html')
     else:
         data = CustomData(
             number_of_rooms = int(request.form['number_of_rooms']),
@@ -33,9 +33,10 @@ def predict():
 
         predict_pipeline = PredictPipeline()
         result = predict_pipeline.predict(prediction_df)
-        formatted_result = int((round(result[0])))
+        formatted_result = round(result[0] / 1_000_000, 2)  # Formats the result in millions with 2 decimal places
 
-        return render_template('home.html', result=formatted_result)
+        return render_template('prediction_form.html', result=f"{formatted_result} million SEK")
+
     
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=3000, debug=True) # for dev purposes
