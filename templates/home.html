@@ -17,12 +17,20 @@
 </head>
 <body>
     <div class="form-container">
-       <h1>Property Details Form</h1>
-   
-       <form action="{{ url_for('predict')}}" method="post">
+        <h1>Property Details Form</h1>
+
+        <form action="{{ url_for('predict')}}" method="post">
         <div class="form-group">
-            <label class="form-label">Number of Rooms</label>
-            <input class="form-control" type="number" name="number_of_rooms" placeholder="Enter number of rooms" required>
+            <label for="number_of_rooms" class="form-label">Number of Rooms</label>
+            <select class="form-control" id="number_of_rooms" name="number_of_rooms" required>
+                <option value="">Select number of rooms</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <!-- Add more options if needed -->
+            </select>
         </div>
         <div class="form-group">
             <label class="form-label">Area Size (sqm)</label>
@@ -40,15 +48,48 @@
             <label class="form-label">Annual Cost (SEK)</label>
             <input class="form-control" type="number" name="annual_cost_sek" placeholder="Enter annual cost in SEK" required>
         </div>
+        
+        <!-- Form group for "Region" dropdown with actual top regions -->
+        <div class="form-group">
+            <label for="region" class="form-label">Region</label>
+            <select class="form-control" id="region" name="region">
+                <option value="">Select a region</option>
+                <option value="södermalm">Södermalm</option>
+                <option value="vasastan">Vasastan</option>
+                <option value="kungsholmen">Kungsholmen</option>
+                <option value="östermalm">Östermalm</option>
+                <option value="bromma">Bromma</option>
+                <option value="årsta">Årsta</option>
+                <option value="hammarby sjöstad">Hammarby Sjöstad</option>
+                <option value="råsunda">Råsunda</option>
+                <option value="centrala sundbyberg">Centrala Sundbyberg</option>
+                <option value="gröndal">Gröndal</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        
+        <!-- New form group for "Has Balcony" checkbox -->
+        <div class="form-group">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="has_balcony" value="Yes"> Has Balcony
+            </label>
+        </div>
+        <!-- Modified form group for "Floor Number" as a free integer input -->
+        <div class="form-group">
+            <label for="floor_number" class="form-label">Floor Number</label>
+            <input class="form-control" type="number" id="floor_number" name="floor_number" placeholder="Enter floor number" required>
+        </div>
+        
         <div class="form-group">
             <input class="btn-primary" type="submit" value="Submit Property Details">
         </div>
     </form>
-   </div>
+    </div>
 
     <div class="form-container">
         <h1>Property Prediction Results</h1>
         <p>{{ result }} sek</p>
     </div>
 </body>
+
 </html>

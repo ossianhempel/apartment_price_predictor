@@ -32,12 +32,18 @@ class CustomData:
             year_built: int,
             annual_fee_sek: int,
             annual_cost_sek: int,
+            region: str,
+            has_balcony: str,
+            floor_number: int,
     ):
         self.number_of_rooms = number_of_rooms
         self.area_size = area_size
         self.year_built = year_built
         self.annual_fee_sek = annual_fee_sek
         self.annual_cost_sek = annual_cost_sek
+        self.region = region
+        self.has_balcony = has_balcony
+        self.floor_number = floor_number
 
     def get_data_as_datafrane(self):
         try:
@@ -46,7 +52,10 @@ class CustomData:
                 'area_size': [self.area_size],
                 'year_built': [self.year_built],
                 'annual_fee_sek': [self.annual_fee_sek],
-                'annual_cost_sek': [self.annual_cost_sek]
+                'annual_cost_sek': [self.annual_cost_sek],
+                'region': [self.region],
+                'has_balcony': [1 if self.has_balcony == 'yes' else 0],
+                'floor_number': [self.floor_number],
             })
         except Exception as e:
             raise CustomException(e, sys)
