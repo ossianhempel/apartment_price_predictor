@@ -19,13 +19,10 @@ from src.utils import save_object, evaluate_model
 
 @dataclass
 class ModelTrainerConfig:
-    #trained_model_file_path = os.path.join("artifacts", "model.pkl")
     # Get the current date in the desired format
     current_date: str = datetime.now().strftime("%Y_%m_%d")
     # Define the base path for the model
     base_path: str = "artifacts"
-    # Define the base model name
-    base_model_name: str = "model.pkl"
     # Use f-string to construct the full path including the date
     trained_model_file_path: str = os.path.join(base_path, f"model_{current_date}.pkl")
 
@@ -119,7 +116,7 @@ class ModelTrainer:
 
             predicted = best_model.predict(X_test)
             r2_square = r2_score(y_test, predicted)
-            return best_model, r2_square
+            return best_model, r2_square   
 
         except Exception as e:
             raise CustomException(e, sys)
