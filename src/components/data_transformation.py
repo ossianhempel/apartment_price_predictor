@@ -23,58 +23,21 @@ class DataTransformationConfig:
 # TODO - dealing with multicollinearity? or in data validation?
     
 
-class TopCategoriesTransformer(BaseEstimator, TransformerMixin):
-    """Transforms a categorical column by replacing the less frequent categories with a new value and one-hot encoding the column.
-    
-    Parameters:
-    -----------
-    column : str
-        The name of the categorical column to transform.
-    n_top : int, optional (default=10)
-        The number of top categories to keep. The less frequent categories will be replaced with the new value.
-    new_value : str, optional (default='Other')
-        The value to replace the less frequent categories with.
-    """
+class FixedTopCategoriesTransformer(BaseEstimator, TransformerMixin):
+    """Transforms a categorical column by keeping only the predefined top categories and replacing the rest with 'Other', then applying one-hot encoding."""
 
-    def __init__(self, column, n_top=10, new_value='Other'):
+    def __init__(self, column, top_categories, new_value='Other'):
         self.column = column
-        self.n_top = n_top
+        # Predefined list of top categories
+        self.top_categories = top_categories
         self.new_value = new_value
-        self.top_categories = None
 
     def fit(self, X, y=None):
-        """Fits the transformer to the data by identifying the top categories in the specified column.
-        
-        Parameters:
-        -----------
-        X : pandas.DataFrame
-            The input data.
-        y : array-like, optional (default=None)
-            The target variable. Not used in this transformer.
-        
-        Returns:
-        --------
-        self : TopCategoriesTransformer
-            The fitted transformer object.
-        """
-        self.top_categories = X[self.column].value_counts().nlargest(self.n_top).index
+        # No fitting process required as top categories are predefined
         return self
 
     def transform(self, X, y=None):
-        """Transforms the input data by replacing the less frequent categories with the new value and one-hot encoding the column.
-        
-        Parameters:
-        -----------
-        X : pandas.DataFrame
-            The input data.
-        y : array-like, optional (default=None)
-            The target variable. Not used in this transformer.
-        
-        Returns:
-        --------
-        transformed : pandas.DataFrame
-            The transformed data with the categorical column replaced and one-hot encoded.
-        """
+        """Transforms the input data by replacing the less frequent categories with the new value and one-hot encoding the column."""
         X = X.copy()
         X[self.column] = X[self.column].apply(lambda x: x if x in self.top_categories else self.new_value)
         return pd.get_dummies(X, columns=[self.column], drop_first=True)
@@ -109,9 +72,6 @@ class FloorNumberCleaner(BaseEstimator, TransformerMixin):
             # For numeric types, return the value directly. This handles already cleaned or numeric inputs.
             return floor_str
 
-
-
-
 class DataTransformation:
     
     def __init__(self) -> None:
@@ -143,7 +103,6 @@ class DataTransformation:
                 'area_size', 
                 'year_built',
                 'annual_fee_sek', 
-                'annual_cost_sek', # TODO this one or annual fee should be removed, the one thats less frequent
                 ]
             # add 'cleaned_floor_number' dynamically based on your transformation logic
             #numerical_columns.append('cleaned_floor_number')
@@ -161,12 +120,12 @@ class DataTransformation:
             )
             
             # TODO - am i going to use this? what about has_balcony?
-            """categorical_pipeline = Pipeline(
+            categorical_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='most_frequent')),
                     ('one_hot_encoder', OneHotEncoder()),
                 ]
-            )"""
+            )
 
             logging.info(f"Categorical columns: {categorical_columns}")
             logging.info(f"Numerical columns: {numerical_columns}")
@@ -178,11 +137,35 @@ class DataTransformation:
             ])
 
 
+            top_categories = [
+                'södermalm',
+                'vasastan',
+                'kungsholmen',
+                'östermalm',
+                'bromma',
+                'årsta',
+                'hammarby sjöstad',
+                'råsunda',
+                'centrala sundbyberg',
+                'gröndal',
+                'gärdet',                
+                'huvudsta',             
+                'kallhäll',              
+                'jakobsberg',          
+                'farsta',            
+                'täby centrum',        
+                'liljeholmskajen',   
+                'hammarbyhöjden',    
+                'aspudden',        
+                'barkarbystaden',     
+            ]
+
             preprocessor = ColumnTransformer(
                 transformers=[
                     ("numerical_pipeline", numerical_pipeline, numerical_columns),
-                    ("region_transformer", TopCategoriesTransformer(column='region'), ['region']),
+                    ("region_transformer", FixedTopCategoriesTransformer(column='region', top_categories=top_categories), ['region']),
                     ("floor_number_pipeline", floor_number_pipeline, ['floor_number']),
+                    #("categorical_pipeline", categorical_pipeline, categorical_columns),
                 ]
             )
 
