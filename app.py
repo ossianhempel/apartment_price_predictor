@@ -22,9 +22,8 @@ def predict():
             area_size = int(request.form['area_size']),
             year_built = int(request.form['year_built']),
             annual_fee_sek = int(request.form['annual_fee_sek']),
-            annual_cost_sek = int(request.form['annual_cost_sek']),
             region = request.form['region'],
-            has_balcony = request.form['has_balcony'],
+            has_balcony = request.form.get('has_balcony', 'no'),
             floor_number = int(request.form['floor_number']),
         )
 
