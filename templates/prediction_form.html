@@ -4,16 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Prediction Form</title>
-    <style>
-        /* Basic styling for form */
-        body { font-family: Arial, sans-serif; }
-        .form-container { max-width: 500px; margin: auto; padding: 20px; background-color: #f4f4f4; }
-        .form-container h1 { text-align: center; }
-        .form-group { margin-bottom: 20px; }
-        .form-label { display: block; margin-bottom: 5px; }
-        .form-control { width: 100%; padding: 10px; }
-        .btn-primary { background-color: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/prediction_form.css') }}">
 </head>
 <body>
     <div class="form-container">
