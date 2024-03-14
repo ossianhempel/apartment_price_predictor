@@ -7,12 +7,12 @@ from src.pipeline.predict_pipeline import PredictPipeline, CustomData
 
 app = Flask(__name__)
 
-# Route for a prediction page
-@app.route('/')
-def index():
-    return render_template('index.html')
+# route for a prediction page
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
-@app.route('/predict', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST']) # change back to route /predict if you want to have another index page
 def predict():
     if request.method == 'GET':
         return render_template('prediction_form.html')
