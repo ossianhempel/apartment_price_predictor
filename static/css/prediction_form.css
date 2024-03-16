@@ -12,24 +12,46 @@ body {
 }
 .form-group { 
     margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+
 }
 .form-label { 
     display: block; margin-bottom: 5px; 
 }
 .form-control { 
-    width: 90%; 
     padding: 10px;
+    flex: 1;
 
 }
-.btn-primary { 
+.form-container__submit-button { 
+    display: flex;
+    justify-content: center;
     background-color: #007bff; 
     color: white; 
     padding: 10px 20px; 
     border: none; 
     cursor: pointer; 
+    margin: auto;
+    border-radius: 5px;
+
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+
+    &:hover {
+        background-color: #0056b3; /* Slightly darker on hover */
+    }
+
+    &:focus {
+        outline: 2px solid #0056b3; 
+    }
 }
 
 .form-container__prediction-output {
-    margin: auto;
-
+    text-align: center;
+    font-size: 20px;
+    height: 2rem; /* add so that the form's height doesnt increase when the prediction is made */ 
 }
