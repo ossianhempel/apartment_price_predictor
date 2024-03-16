@@ -90,6 +90,47 @@
         <h1>Price Prediction:</h1>
         <p class="form-container__prediction-output">{{ result }}</p>
     </div>
+
+
+
+    <script>
+        function validateForm() {
+            // validate Area Size
+            if (!validateNumberInput(document.getElementsByName('area_size')[0], 5, 1000)) {
+                alert("Area size must be between 5 and 1000 sqm.");
+                return false;
+            }
+            // validate Year Built
+            if (!validateNumberInput(document.getElementsByName('year_built')[0], 1800, new Date().getFullYear())) {
+                alert("Year built must be between 1800 and the current year.");
+                return false;
+            }
+            // validate Annual Fee
+            if (!validateNumberInput(document.getElementsByName('annual_fee_sek')[0], 0, 100000)) {
+                alert("Annual fee must be between 0 and 1,000,00 SEK.");
+                return false;
+            }
+            // validate Floor Number
+            if (!validateNumberInput(document.getElementsByName('floor_number')[0], -5, 50)) {
+                alert("Floor number must be between -5 (basements) and 50.");
+                return false;
+            }
+
+            return true; // validation passed
+        }
+
+        function validateNumberInput(inputElement, min, max) {
+            const value = parseInt(inputElement.value, 10);
+            return value >= min && value <= max;
+        }
+
+        // attach the validateForm function to the form submission event
+        document.querySelector('form').onsubmit = function(event) {
+            if (!validateForm()) {
+                event.preventDefault(); // Stop form submission
+            }
+        };
+    </script>
 </body>
 
 </html>
