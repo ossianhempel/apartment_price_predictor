@@ -1,4 +1,4 @@
-,address,location,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm
+,address,region,date_sold,price_sold_sek,price_listed_sek,price_square_meter_sek,residence_type,number_of_rooms,area_size,balcony,floor_number,elevator,year_built,annual_fee_sek,annual_cost_sek,broker_name,brokerage_firm,date_scraped
 0,"Bergsrådsvägen 30, 2tr","Bagarmossen, Stockholms kommun",2023-11-12,4400000,4200000.0,59459,Lägenhet,3.0,74,Ja,2 av 3,False,1953.0,4899,9000,Maria Lundberg,Svensk Fastighetsförmedling Farsta-Enskede
 1,Ringvägen 86,"Åby, Haninge kommun",2023-11-12,1015000,1095000.0,40600,Lägenhet,1.0,25,Unknown,4 av 4,True,1961.0,2265,3120,Caroline Östlund,SkandiaMäklarna Haninge
 2,Norra Stationsgatan 64B,"Vasastan / Hagastaden, Stockholms kommun",2023-11-12,7450000,7450000.0,102759,Lägenhet,3.0,725,Ja,Unknown,False,2023.0,4428,0,Marianna Maatouk,Bronze Fastighetsförmedling AB
