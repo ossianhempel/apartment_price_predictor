@@ -31,16 +31,38 @@ class FixedTopCategoriesTransformer(BaseEstimator, TransformerMixin):
         # Predefined list of top categories
         self.top_categories = top_categories
         self.new_value = new_value
+        self.all_categories = None
 
     def fit(self, X, y=None):
-        # No fitting process required as top categories are predefined
+        # Determine all possible categories (top categories + 'Other')
+        self.all_categories = self.top_categories + [self.new_value]
         return self
 
     def transform(self, X, y=None):
         """Transforms the input data by replacing the less frequent categories with the new value and one-hot encoding the column."""
         X = X.copy()
         X[self.column] = X[self.column].apply(lambda x: x if x in self.top_categories else self.new_value)
-        return pd.get_dummies(X, columns=[self.column], drop_first=True)
+        
+        # Use pd.get_dummies with categories parameter to ensure consistent columns
+        result = pd.get_dummies(X, columns=[self.column], drop_first=True)
+        
+        # Ensure all expected columns are present (except the first one which is dropped)
+        expected_columns = [f"{self.column}_{cat}" for cat in self.all_categories[1:]]  # Skip first category
+        
+        # Add missing columns with zeros
+        for col in expected_columns:
+            if col not in result.columns:
+                result[col] = 0
+                
+        # Remove any unexpected columns
+        unexpected_cols = [col for col in result.columns if col.startswith(f"{self.column}_") and col not in expected_columns]
+        result = result.drop(columns=unexpected_cols, errors='ignore')
+        
+        # Ensure column order
+        other_cols = [col for col in result.columns if not col.startswith(f"{self.column}_")]
+        result = result[other_cols + expected_columns]
+        
+        return result
     
 class FloorNumberCleaner(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
@@ -108,8 +130,7 @@ class DataTransformation:
             #numerical_columns.append('cleaned_floor_number')
             
             categorical_columns = [
-                'region', 
-                'has_balcony',
+                'balcony',
                 ]
             
             numerical_pipeline = Pipeline(
@@ -119,11 +140,10 @@ class DataTransformation:
                 ]
             )
             
-            # TODO - am i going to use this? what about has_balcony?
             categorical_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='most_frequent')),
-                    ('one_hot_encoder', OneHotEncoder()),
+                    ('one_hot_encoder', OneHotEncoder(drop='first', handle_unknown='ignore')),
                 ]
             )
 
@@ -138,26 +158,30 @@ class DataTransformation:
 
 
             top_categories = [
-                'södermalm',
-                'vasastan',
-                'kungsholmen',
-                'östermalm',
-                'bromma',
-                'årsta',
-                'hammarby sjöstad',
-                'råsunda',
-                'centrala sundbyberg',
-                'gröndal',
-                'gärdet',                
-                'huvudsta',             
-                'kallhäll',              
-                'jakobsberg',          
-                'farsta',            
-                'täby centrum',        
-                'liljeholmskajen',   
-                'hammarbyhöjden',    
-                'aspudden',        
-                'barkarbystaden',     
+                'Södermalm, Stockholms kommun',
+                'Vasastan, Stockholms kommun', 
+                'Kungsholmen, Stockholms kommun',
+                'Östermalm, Stockholms kommun',
+                'Bromma, Stockholms kommun',
+                'Årsta, Stockholms kommun',
+                'Hammarby Sjöstad, Stockholms kommun',
+                'Råsunda, Solna kommun',
+                'Centrala Sundbyberg, Sundbybergs kommun',
+                'Gröndal, Stockholms kommun',
+                'Gärdet, Stockholms kommun',                
+                'Huvudsta, Solna kommun',             
+                'Kallhäll, Järfälla kommun',              
+                'Jakobsberg, Järfälla kommun',          
+                'Farsta, Stockholms kommun',            
+                'Täby Centrum, Täby kommun',        
+                'Liljeholmskajen, Stockholms kommun',   
+                'Hammarbyhöjden, Stockholms kommun',    
+                'Aspudden, Stockholms kommun',        
+                'Barkarbystaden, Järfälla kommun',
+                'Södermalm',
+                'Vasastan',
+                'Kungsholmen',
+                'Östermalm',     
             ]
 
             preprocessor = ColumnTransformer(
@@ -165,8 +189,9 @@ class DataTransformation:
                     ("numerical_pipeline", numerical_pipeline, numerical_columns),
                     ("region_transformer", FixedTopCategoriesTransformer(column='region', top_categories=top_categories), ['region']),
                     ("floor_number_pipeline", floor_number_pipeline, ['floor_number']),
-                    #("categorical_pipeline", categorical_pipeline, categorical_columns),
-                ]
+                    ("categorical_pipeline", categorical_pipeline, categorical_columns),
+                ],
+                remainder='drop'
             )
 
             return preprocessor
