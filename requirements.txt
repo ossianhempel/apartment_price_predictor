@@ -16,4 +16,6 @@ Flask
 datetime
 tqdm
 watchdog
+pytest
+pytest-cov
 #-e .
