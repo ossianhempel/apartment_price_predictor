@@ -39,6 +39,33 @@ python main.py
 python src/pipeline/train_pipeline.py
 ```
 
+### Testing
+```bash
+# Install test dependencies
+pip install pytest pytest-cov
+
+# Run all tests
+pytest
+
+# Run tests with coverage
+pytest --cov=src --cov-report=html
+
+# Run only unit tests
+pytest tests/unit/
+
+# Run only integration tests  
+pytest tests/integration/
+
+# Run tests excluding slow tests
+pytest -m "not slow"
+
+# Run specific test file
+pytest tests/unit/test_predict_pipeline.py
+
+# Run tests with verbose output
+pytest -v
+```
+
 ## Architecture
 
 ### Core Components (`src/components/`)
