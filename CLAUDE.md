@@ -20,7 +20,12 @@ pip install -r requirements.txt
 # Install package in development mode
 pip install -e .
 
-# Run Flask web application (development)
+# Run Flask web application (development with auto-reload)
+python dev_server.py
+# Enhanced development server with file watching
+# Access at http://127.0.0.1:3000
+
+# Alternative: Basic Flask development server
 python app.py
 # Access at http://127.0.0.1:3000
 

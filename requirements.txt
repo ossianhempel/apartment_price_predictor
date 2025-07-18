@@ -15,4 +15,5 @@ dill
 Flask
 datetime
 tqdm
+watchdog
 #-e .

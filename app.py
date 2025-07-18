@@ -7,6 +7,10 @@ from src.pipeline.predict_pipeline import PredictPipeline, CustomData
 
 app = Flask(__name__)
 
+# Development configuration for immediate updates
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0  # Disable static file caching
+
 # route for a prediction page
 # @app.route('/')
 # def index():
@@ -51,5 +55,13 @@ def predict():
 
     
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=3000, debug=True) # for dev purposes
-    # http://127.0.0.1:3000/predict
+    # Enhanced development configuration for auto-reload
+    app.run(
+        host="0.0.0.0", 
+        port=3000, 
+        debug=True,
+        use_reloader=True,
+        use_debugger=True,
+        extra_files=['templates/', 'static/']  # Watch template and static directories
+    )
+    # Access at: http://127.0.0.1:3000
