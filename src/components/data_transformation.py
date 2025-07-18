@@ -8,6 +8,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.exceptions import NotFittedError
 
 from src.exception import CustomException
 from src.logger import logging
@@ -32,10 +33,27 @@ class FixedTopCategoriesTransformer(BaseEstimator, TransformerMixin):
         self.top_categories = top_categories
         self.new_value = new_value
         self.all_categories = None
+        self.encoder = None
 
     def fit(self, X, y=None):
         # Determine all possible categories (top categories + 'Other')
         self.all_categories = self.top_categories + [self.new_value]
+        
+        # Initialize and fit the OneHotEncoder with all possible categories
+        self.encoder = OneHotEncoder(
+            categories=[self.all_categories], 
+            drop='first', 
+            handle_unknown='ignore',
+            sparse_output=False
+        )
+        
+        # Create a temporary dataframe with all categories for fitting
+        X_temp = X.copy()
+        X_temp[self.column] = X_temp[self.column].apply(lambda x: x if x in self.top_categories else self.new_value)
+        
+        # Fit the encoder
+        self.encoder.fit(X_temp[[self.column]])
+        
         return self
 
     def transform(self, X, y=None):
@@ -43,26 +61,35 @@ class FixedTopCategoriesTransformer(BaseEstimator, TransformerMixin):
         X = X.copy()
         X[self.column] = X[self.column].apply(lambda x: x if x in self.top_categories else self.new_value)
         
-        # Use pd.get_dummies with categories parameter to ensure consistent columns
-        result = pd.get_dummies(X, columns=[self.column], drop_first=True)
+        # Use sklearn OneHotEncoder for consistent encoding
+        encoded_array = self.encoder.transform(X[[self.column]])
         
-        # Ensure all expected columns are present (except the first one which is dropped)
-        expected_columns = [f"{self.column}_{cat}" for cat in self.all_categories[1:]]  # Skip first category
+        # Get feature names from the encoder
+        feature_names = self.encoder.get_feature_names_out([self.column])
         
-        # Add missing columns with zeros
-        for col in expected_columns:
-            if col not in result.columns:
-                result[col] = 0
-                
-        # Remove any unexpected columns
-        unexpected_cols = [col for col in result.columns if col.startswith(f"{self.column}_") and col not in expected_columns]
-        result = result.drop(columns=unexpected_cols, errors='ignore')
+        # Create DataFrame from encoded array
+        encoded_df = pd.DataFrame(encoded_array, columns=feature_names, index=X.index)
         
-        # Ensure column order
-        other_cols = [col for col in result.columns if not col.startswith(f"{self.column}_")]
-        result = result[other_cols + expected_columns]
+        # Drop the original categorical column and add the encoded columns
+        other_cols = [col for col in X.columns if col != self.column]
+        result = pd.concat([X[other_cols], encoded_df], axis=1)
         
         return result
+    
+    def get_feature_names_out(self, input_features=None):
+        """Get output feature names for transformation."""
+        if self.encoder is None:
+            raise NotFittedError("This FixedTopCategoriesTransformer instance is not fitted yet.")
+        
+        if input_features is not None:
+            other_features = [f for f in input_features if f != self.column]
+        else:
+            other_features = []
+        
+        # Get encoded feature names
+        encoded_features = self.encoder.get_feature_names_out([self.column])
+        
+        return other_features + list(encoded_features)
     
 class FloorNumberCleaner(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
@@ -70,14 +97,22 @@ class FloorNumberCleaner(BaseEstimator, TransformerMixin):
         return self
 
     def transform(self, X, y=None):
-        # Assuming X is a DataFrame with a 'floor_number' column
+        # Handle both DataFrame and Series input
         if isinstance(X, pd.DataFrame):
-            X_transformed = X.apply(lambda row: self.clean_floor_number(row['floor_number']), axis=1)
+            if 'floor_number' in X.columns:
+                # DataFrame with floor_number column
+                X_transformed = X['floor_number'].apply(self.clean_floor_number)
+            else:
+                # DataFrame but no floor_number column, assume the whole DataFrame is floor numbers
+                X_transformed = X.iloc[:, 0].apply(self.clean_floor_number)
         else:
+            # Series input
             X_transformed = X.apply(self.clean_floor_number)
         
         # Convert the Series to a DataFrame to ensure 2D output
-        return pd.DataFrame(X_transformed, columns=['cleaned_floor_number'])
+        # Reset the name to avoid column name conflicts
+        X_transformed.name = None
+        return pd.DataFrame({'cleaned_floor_number': X_transformed}, index=X_transformed.index)
 
     def clean_floor_number(self, floor_str):
         # First, check if floor_str is a string
@@ -92,7 +127,11 @@ class FloorNumberCleaner(BaseEstimator, TransformerMixin):
             return np.nan
         else:
             # For numeric types, return the value directly. This handles already cleaned or numeric inputs.
-            return floor_str
+            # Convert to int to ensure consistent data type
+            try:
+                return int(floor_str)
+            except (ValueError, TypeError):
+                return np.nan
 
 class DataTransformation:
     
@@ -102,9 +141,10 @@ class DataTransformation:
     def pre_transform_floor_number(self, df):
         """Applies the FloorNumberCleaner transformation to the 'floor_number' column of the DataFrame."""
         cleaner = FloorNumberCleaner()
-        # Assuming 'transform' method is adjusted to return a Series or compatible format
+        # Transform returns a DataFrame with 'cleaned_floor_number' column
         transformed_floor_number = cleaner.transform(df['floor_number'])
-        df['floor_number'] = transformed_floor_number  # Directly modify 'floor_number'
+        # Extract the cleaned values and assign back to floor_number column
+        df['floor_number'] = transformed_floor_number['cleaned_floor_number']
         return df
 
     def get_data_transformer_object(self):
