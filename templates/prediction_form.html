@@ -118,7 +118,7 @@
                 <h2>💰 Price Prediction</h2>
             </div>
             <div class="result-content">
-                <p class="result-value">round({{ result }}, 2)</p>
+                <p class="result-value">{{ "%.2f"|format(result) }} million SEK</p>
                 <p class="result-disclaimer">*Estimate based on current market data from 2024</p>
             </div>
         </div>
