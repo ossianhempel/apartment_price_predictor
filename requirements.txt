@@ -15,5 +15,7 @@ dill
 Flask
 datetime
 tqdm
-dbt
+watchdog
+pytest
+pytest-cov
 #-e .

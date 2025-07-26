@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(mkdir:*)",
+      "Bash(pytest:*)"
+    ],
+    "deny": []
+  }
+}
