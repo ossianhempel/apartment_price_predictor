@@ -50,7 +50,7 @@ def predict():
         formatted_result = round(result[0] / 1_000_000, 2)  # Formats the result in millions with 2 decimal places
 
         return render_template('prediction_form.html', 
-                             result=f"{formatted_result} million SEK",
+                             result=formatted_result,
                              form_data=form_data)
 
     
